@@ -1,0 +1,1371 @@
+[
+  {
+    "id": "1",
+    "universityName": "Irkutsk State Medical University",
+    "tuitionFeesRaw": "380000",
+    "hostelFeesRaw": "20000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
+        { "yearNumber": 2, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
+        { "yearNumber": 3, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
+        { "yearNumber": 4, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
+        { "yearNumber": 5, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
+        { "yearNumber": 6, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 29,64,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "2",
+    "universityName": "Kazan Federal University",
+    "tuitionFeesRaw": "660000",
+    "hostelFeesRaw": "50000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1350",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
+        { "yearNumber": 2, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
+        { "yearNumber": 3, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
+        { "yearNumber": 4, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
+        { "yearNumber": 5, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
+        { "yearNumber": 6, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 51,48,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "3",
+    "universityName": "Kazan State Medical University",
+    "tuitionFeesRaw": "299000",
+    "hostelFeesRaw": "35000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "4",
+    "universityName": "Crimea Federal University named after V.I. Vernadsky",
+    "tuitionFeesRaw": "250000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
+        { "yearNumber": 2, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
+        { "yearNumber": 3, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
+        { "yearNumber": 4, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
+        { "yearNumber": 5, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
+        { "yearNumber": 6, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 25,74,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "5",
+    "universityName": "Far Eastern Federal University",
+    "tuitionFeesRaw": "USD 5500",
+    "hostelFeesRaw": "USD 500",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1500",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
+        { "yearNumber": 2, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
+        { "yearNumber": 3, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
+        { "yearNumber": 4, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
+        { "yearNumber": 5, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
+        { "yearNumber": 6, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 39,00,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "6",
+    "universityName": "Orenburg State Medical University",
+    "tuitionFeesRaw": "420000",
+    "hostelFeesRaw": "25000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "7",
+    "universityName": "Bashkir State Medical University",
+    "tuitionFeesRaw": "340000",
+    "hostelFeesRaw": "18000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1300",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
+        { "yearNumber": 2, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
+        { "yearNumber": 3, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
+        { "yearNumber": 4, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
+        { "yearNumber": 5, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
+        { "yearNumber": 6, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 31,59,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "8",
+    "universityName": "Siberian State Medical University",
+    "tuitionFeesRaw": "450000",
+    "hostelFeesRaw": "22000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1250",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
+        { "yearNumber": 2, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
+        { "yearNumber": 3, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
+        { "yearNumber": 4, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
+        { "yearNumber": 5, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
+        { "yearNumber": 6, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 30,07,680",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "9",
+    "universityName": "Rostov State Medical University",
+    "tuitionFeesRaw": "390000",
+    "hostelFeesRaw": "30000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "10",
+    "universityName": "Peoples' Friendship University of Russia (RUDN)",
+    "tuitionFeesRaw": "USD 6500",
+    "hostelFeesRaw": "6500 USD",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1400",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "11",
+    "universityName": "Sechenov First Moscow State Medical University",
+    "tuitionFeesRaw": "1100000",
+    "hostelFeesRaw": "100000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1500",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "12",
+    "universityName": "Pavlov First Saint Petersburg State Medical University",
+    "tuitionFeesRaw": "520000",
+    "hostelFeesRaw": "45000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1350",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "13",
+    "universityName": "Kursk State Medical University",
+    "tuitionFeesRaw": "4900$",
+    "hostelFeesRaw": "20000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "14",
+    "universityName": "Ryazan State Medical University",
+    "tuitionFeesRaw": "310000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
+        { "yearNumber": 2, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
+        { "yearNumber": 3, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
+        { "yearNumber": 4, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
+        { "yearNumber": 5, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
+        { "yearNumber": 6, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 39,46,800",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "15",
+    "universityName": "Perm State Medical University",
+    "tuitionFeesRaw": "360000",
+    "hostelFeesRaw": "28000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "16",
+    "universityName": "Mari State University",
+    "tuitionFeesRaw": "280000",
+    "hostelFeesRaw": "15000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1100",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "17",
+    "universityName": "North Ossetian State Medical Academy",
+    "tuitionFeesRaw": "320000",
+    "hostelFeesRaw": "20000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 2, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 3, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 4, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 5, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 6, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 28,08,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "18",
+    "universityName": "Smolensk State Medical University",
+    "tuitionFeesRaw": "400000",
+    "hostelFeesRaw": "32000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1300",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "19",
+    "universityName": "Tver State Medical University",
+    "tuitionFeesRaw": "350000",
+    "hostelFeesRaw": "24000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
+        { "yearNumber": 2, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
+        { "yearNumber": 3, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
+        { "yearNumber": 4, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
+        { "yearNumber": 5, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
+        { "yearNumber": 6, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 33,54,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "20",
+    "universityName": "Omsk State Medical University",
+    "tuitionFeesRaw": "370000",
+    "hostelFeesRaw": "21000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1250",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
+        { "yearNumber": 2, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
+        { "yearNumber": 3, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
+        { "yearNumber": 4, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
+        { "yearNumber": 5, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
+        { "yearNumber": 6, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 28,86,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "21",
+    "universityName": "Saint Petersburg State Pediatric Medical University",
+    "tuitionFeesRaw": "480000",
+    "hostelFeesRaw": "40000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1400",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
+        { "yearNumber": 2, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
+        { "yearNumber": 3, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
+        { "yearNumber": 4, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
+        { "yearNumber": 5, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
+        { "yearNumber": 6, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 38,78,160",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "22",
+    "universityName": "Immanuel Kant Baltic Federal University",
+    "tuitionFeesRaw": "330000",
+    "hostelFeesRaw": "19000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
+        { "yearNumber": 2, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
+        { "yearNumber": 3, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
+        { "yearNumber": 4, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
+        { "yearNumber": 5, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
+        { "yearNumber": 6, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 27,09,564",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "23",
+    "universityName": "Pirogov Russian National Research Medical University",
+    "tuitionFeesRaw": "6800 USD",
+    "hostelFeesRaw": "80000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1500",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "24",
+    "universityName": "Yaroslavl State Medical University",
+    "tuitionFeesRaw": "300000",
+    "hostelFeesRaw": "17000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1150",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
+        { "yearNumber": 2, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
+        { "yearNumber": 3, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
+        { "yearNumber": 4, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
+        { "yearNumber": 5, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
+        { "yearNumber": 6, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 30,03,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "25",
+    "universityName": "Voronezh State Medical University",
+    "tuitionFeesRaw": "410000",
+    "hostelFeesRaw": "26000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
+        { "yearNumber": 2, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
+        { "yearNumber": 3, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
+        { "yearNumber": 4, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
+        { "yearNumber": 5, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
+        { "yearNumber": 6, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 38,22,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "26",
+    "universityName": "Astrakhan State Medical University",
+    "tuitionFeesRaw": "290000",
+    "hostelFeesRaw": "16000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "27",
+    "universityName": "Northern State Medical University",
+    "tuitionFeesRaw": "430000",
+    "hostelFeesRaw": "35000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1300",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "28",
+    "universityName": "Chuvash State University",
+    "tuitionFeesRaw": "270000",
+    "hostelFeesRaw": "14000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "brochureTagline": "Mess compulsory (per brochure).",
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
+        { "yearNumber": 2, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
+        { "yearNumber": 3, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
+        { "yearNumber": 4, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
+        { "yearNumber": 5, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
+        { "yearNumber": 6, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,11,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "29",
+    "universityName": "Ulyanovsk State University",
+    "tuitionFeesRaw": "305000",
+    "hostelFeesRaw": "18000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1100",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 2, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 3, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 4, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 5, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 6, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 27,30,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "30",
+    "universityName": "Dagestan State Medical University",
+    "tuitionFeesRaw": "315000",
+    "hostelFeesRaw": "20000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "31",
+    "universityName": "Volgograd State Medical University",
+    "tuitionFeesRaw": "395000",
+    "hostelFeesRaw": "23000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1250",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
+        { "yearNumber": 2, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
+        { "yearNumber": 3, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
+        { "yearNumber": 4, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
+        { "yearNumber": 5, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
+        { "yearNumber": 6, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 37,83,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "32",
+    "universityName": "Kuban State Medical University",
+    "tuitionFeesRaw": "355000",
+    "hostelFeesRaw": "22000",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000
+  },
+  {
+    "id": "33",
+    "universityName": "North-Western State Medical University",
+    "tuitionFeesRaw": "550000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
+        { "yearNumber": 2, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
+        { "yearNumber": 3, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
+        { "yearNumber": 4, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
+        { "yearNumber": 5, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
+        { "yearNumber": 6, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 42,90,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "34",
+    "universityName": "North Caucasian State Medical Academy",
+    "tuitionFeesRaw": "350000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 2, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 3, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 4, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 5, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
+        { "yearNumber": 6, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 27,30,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "35",
+    "universityName": "MEPHI National Research Nuclear University",
+    "tuitionFeesRaw": "510000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
+        { "yearNumber": 2, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
+        { "yearNumber": 3, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
+        { "yearNumber": 4, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
+        { "yearNumber": 5, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
+        { "yearNumber": 6, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 39,78,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "36",
+    "universityName": "Kemerovo State Medical University",
+    "tuitionFeesRaw": "335000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
+        { "yearNumber": 2, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
+        { "yearNumber": 3, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
+        { "yearNumber": 4, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
+        { "yearNumber": 5, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
+        { "yearNumber": 6, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 26,13,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "37",
+    "universityName": "Kemerovo State University",
+    "tuitionFeesRaw": "299000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
+        { "yearNumber": 2, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
+        { "yearNumber": 3, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
+        { "yearNumber": 4, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
+        { "yearNumber": 5, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
+        { "yearNumber": 6, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 23,32,200",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "38",
+    "universityName": "Ivanovo State Medical University",
+    "tuitionFeesRaw": "285000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
+        { "yearNumber": 2, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
+        { "yearNumber": 3, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
+        { "yearNumber": 4, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
+        { "yearNumber": 5, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
+        { "yearNumber": 6, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 22,23,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "39",
+    "universityName": "Kabardino-Balkarian State University",
+    "tuitionFeesRaw": "324000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
+        { "yearNumber": 2, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
+        { "yearNumber": 3, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
+        { "yearNumber": 4, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
+        { "yearNumber": 5, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
+        { "yearNumber": 6, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 25,27,200",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "40",
+    "universityName": "Tambov State University",
+    "tuitionFeesRaw": "410000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
+        { "yearNumber": 2, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
+        { "yearNumber": 3, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
+        { "yearNumber": 4, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
+        { "yearNumber": 5, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
+        { "yearNumber": 6, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 31,98,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "41",
+    "universityName": "Samara State Medical University",
+    "tuitionFeesRaw": "450000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
+        { "yearNumber": 2, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
+        { "yearNumber": 3, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
+        { "yearNumber": 4, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
+        { "yearNumber": 5, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
+        { "yearNumber": 6, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 35,10,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "42",
+    "universityName": "Orel State Medical University",
+    "tuitionFeesRaw": "325100",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
+        { "yearNumber": 2, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
+        { "yearNumber": 3, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
+        { "yearNumber": 4, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
+        { "yearNumber": 5, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
+        { "yearNumber": 6, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 25,35,780",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "43",
+    "universityName": "Yaroslav-the-Wise Novgorod State University",
+    "tuitionFeesRaw": "375000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
+        { "yearNumber": 2, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
+        { "yearNumber": 3, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
+        { "yearNumber": 4, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
+        { "yearNumber": 5, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
+        { "yearNumber": 6, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 29,25,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  },
+  {
+    "id": "44",
+    "universityName": "Ural State Medical University",
+    "tuitionFeesRaw": "360000",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 40000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 175000,
+    "brochureExtension": {
+      "courseDurationSummary": "5 years + 1 year internship",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission process",
+        "Visa",
+        "Transport (airport to hostel)",
+        "Phone call & SIM card",
+        "12th marks memo certificate",
+        "Invitation letter",
+        "One meal at arrival",
+        "Medical insurance",
+        "Police registration"
+      ],
+      "tuitionYearRows": [
+        { "yearNumber": 1, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 2, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 3, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 4, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 5, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
+        { "yearNumber": 6, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 28,08,000",
+      "notes": [
+        "Air ticket charges will be extra as per actual cost.",
+        "OTC charges: USD 2,000.",
+        "Fees must be paid in Russian rubles only. INR amounts are indicative for convenience.",
+        "Listed tuition fees do not include hostel and food charges.",
+        "Expenditure for internship may be applicable as per government norms."
+      ],
+      "contactPhoneNumbers": ["9595718686", "7058362626"]
+    }
+  }
+]
