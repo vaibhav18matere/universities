@@ -12,7 +12,7 @@ export type ParsedMoneyField =
       readonly rawDisplay: string;
       readonly amount: number;
       readonly currency: FeeCurrency;
-      /** Annual amount converted to RUB for range filters */
+      /** Annual amount converted to RUB for internal range filters (display uses INR via `inr-display`) */
       readonly amountRub: number;
     }
   | {

@@ -94,13 +94,9 @@ export function UniversityBrochureSection(props: UniversityBrochureSectionProps)
               </p>
               <dl className="mt-2 space-y-1 text-sm">
                 <div className="flex justify-between gap-3">
-                  <dt className="text-slate-500 dark:text-slate-400">Ruble</dt>
-                  <dd className="font-semibold text-slate-900 dark:text-slate-100">
-                    {row.feeRubDisplay}
-                  </dd>
-                </div>
-                <div className="flex justify-between gap-3">
-                  <dt className="text-slate-500 dark:text-slate-400">INR</dt>
+                  <dt className="text-slate-500 dark:text-slate-400">
+                    Tuition (INR)
+                  </dt>
                   <dd className="font-semibold text-slate-900 dark:text-slate-100">
                     {row.feeInrDisplay}
                   </dd>
@@ -118,9 +114,6 @@ export function UniversityBrochureSection(props: UniversityBrochureSectionProps)
                   Year
                 </th>
                 <th className="px-4 py-3 font-bold text-slate-600 dark:text-slate-300">
-                  Tuition (₽)
-                </th>
-                <th className="px-4 py-3 font-bold text-slate-600 dark:text-slate-300">
                   Tuition (INR)
                 </th>
               </tr>
@@ -133,9 +126,6 @@ export function UniversityBrochureSection(props: UniversityBrochureSectionProps)
                 >
                   <td className="px-4 py-3 font-medium text-slate-900 dark:text-slate-100">
                     {row.yearNumber}
-                  </td>
-                  <td className="px-4 py-3 font-semibold text-slate-900 dark:text-slate-100">
-                    {row.feeRubDisplay}
                   </td>
                   <td className="px-4 py-3 font-semibold text-slate-900 dark:text-slate-100">
                     {row.feeInrDisplay}

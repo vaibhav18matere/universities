@@ -4,7 +4,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { UniversityBrochureSection } from "@/app/components/UniversityBrochureSection";
 import { getCollegeBySlug, getCollegeSlugList } from "@/lib/colleges-catalog";
-import type { MessChargesParsed, ParsedMoneyField } from "@/lib/college-types";
+import {
+  formatMessChargesInr,
+  formatParsedMoneyFieldInr,
+  formatRubAmountInInr,
+  formatUsdAmountInInr,
+} from "@/lib/inr-display";
 
 type CollegeDetailPageProps = {
   readonly params: Promise<{ slug: string }>;
@@ -29,28 +34,8 @@ export async function generateMetadata(
   }
   return {
     title: college.universityName,
-    description: `Fees and charges for ${college.universityName}.`,
+    description: `Approximate INR fees and charges for ${college.universityName}.`,
   };
-}
-
-function formatParsedMoneyDetail(field: ParsedMoneyField): string {
-  if (field.kind === "not_available") {
-    return field.rawDisplay;
-  }
-  if (field.currency === "USD") {
-    return `${field.amount.toLocaleString("en-US")} USD`;
-  }
-  return `${field.amount.toLocaleString("en-US")} ₽`;
-}
-
-function formatMessDetail(
-  mess: MessChargesParsed,
-  rawFallback: string,
-): string {
-  if (mess.kind === "not_available") {
-    return rawFallback.trim().length > 0 ? rawFallback : "NA";
-  }
-  return `${mess.amountUsd.toLocaleString("en-US")} USD`;
 }
 
 type FeeBlockProps = {
@@ -125,57 +110,49 @@ export default async function CollegeDetailPage(props: CollegeDetailPageProps) {
           <p className="text-base font-semibold">{college.universityName}</p>
         </FeeBlock>
 
-        <FeeBlock title="Tuition fees (Rubs/USD)">
-          <p className="text-base font-semibold">{college.tuitionFeesRaw}</p>
-          {college.tuition.kind === "amount" ? (
-            <p className="mt-2 rounded-xl bg-surface-muted/90 px-3 py-2 text-xs text-slate-600 dark:bg-slate-800/80 dark:text-slate-400">
-              Normalized for filters:{" "}
-              <span className="font-medium text-slate-800 dark:text-slate-200">
-                {formatParsedMoneyDetail(college.tuition)}
-              </span>{" "}
-              (~
-              {Math.round(college.tuition.amountRub).toLocaleString("en-US")} ₽
-              / year)
-            </p>
-          ) : null}
+        <FeeBlock title="Tuition fees">
+          <p className="text-base font-semibold">
+            {formatParsedMoneyFieldInr(college.tuition)}
+          </p>
+          <p className="mt-2 text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+            Approximate INR per year, using the same basis as the directory.
+            Confirm the exact amount and currency with the university before
+            paying.
+          </p>
         </FeeBlock>
 
-        <FeeBlock title="Hostel fees (in Rubs)">
-          <p className="text-base font-semibold">{college.hostelFeesRaw}</p>
-          {college.hostel.kind === "amount" ? (
-            <p className="mt-2 rounded-xl bg-surface-muted/90 px-3 py-2 text-xs text-slate-600 dark:bg-slate-800/80 dark:text-slate-400">
-              Normalized for filters:{" "}
-              <span className="font-medium text-slate-800 dark:text-slate-200">
-                {formatParsedMoneyDetail(college.hostel)}
-              </span>{" "}
-              (~
-              {Math.round(college.hostel.amountRub).toLocaleString("en-US")} ₽
-              / year)
-            </p>
-          ) : null}
+        <FeeBlock title="Hostel fees">
+          <p className="text-base font-semibold">
+            {formatParsedMoneyFieldInr(college.hostel)}
+          </p>
+          <p className="mt-2 text-xs leading-relaxed text-slate-500 dark:text-slate-400">
+            Approximate INR per year, using the same basis as the directory.
+            Confirm the exact amount and currency with the university before
+            paying.
+          </p>
         </FeeBlock>
 
         <FeeBlock title="Medical insurance + medical test + biometric + SIM card + registration + visa extension">
           <p className="text-base font-semibold">
-            {college.medicalBundleRub.toLocaleString("en-US")} ₽
+            {formatRubAmountInInr(college.medicalBundleRub)}
           </p>
         </FeeBlock>
 
-        <FeeBlock title="OTC charges (development charges) (in USD)">
+        <FeeBlock title="OTC charges (development)">
           <p className="text-base font-semibold">
-            {college.otcChargesUsd.toLocaleString("en-US")} USD
+            {formatUsdAmountInInr(college.otcChargesUsd)}
           </p>
         </FeeBlock>
 
-        <FeeBlock title="Mess charges (in USD)">
+        <FeeBlock title="Mess charges">
           <p className="text-base font-semibold">
-            {formatMessDetail(college.messCharges, college.messChargesRaw)}
+            {formatMessChargesInr(college.messCharges, college.messChargesRaw)}
           </p>
         </FeeBlock>
 
         <FeeBlock title="Service charges">
           <p className="text-base font-semibold">
-            {college.serviceChargesRub.toLocaleString("en-US")} ₽
+            {formatRubAmountInInr(college.serviceChargesRub)}
           </p>
         </FeeBlock>
       </div>

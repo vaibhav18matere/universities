@@ -2,22 +2,45 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import type {
-  College,
-  CollegeFilterState,
-  MessChargesParsed,
-  ParsedMoneyField,
-} from "@/lib/college-types";
+import type { College, CollegeFilterState } from "@/lib/college-types";
 import {
   getHostelRubFilterOptions,
   getTuitionRubFilterOptions,
 } from "@/lib/college-filter-options";
 import { computeListingFeeExtents } from "@/lib/college-fee-stats";
 import { filterColleges } from "@/lib/filter-colleges";
+import {
+  formatMessChargesInr,
+  formatParsedMoneyFieldInr,
+  formatRubAmountInInr,
+} from "@/lib/inr-display";
+import { buildUniversityComparePath } from "@/lib/university-compare-url";
 
 type CollegeDirectoryProps = {
   readonly colleges: ReadonlyArray<College>;
 };
+
+const MAX_COMPARE_SELECTION = 3;
+
+function withCompareSlugToggled(
+  currentSlugs: ReadonlyArray<string>,
+  slug: string,
+): ReadonlyArray<string> {
+  const existingIndex = currentSlugs.indexOf(slug);
+  if (existingIndex !== -1) {
+    const nextSlugs: Array<string> = [];
+    for (let index = 0; index < currentSlugs.length; index += 1) {
+      if (index !== existingIndex) {
+        nextSlugs.push(currentSlugs[index]);
+      }
+    }
+    return nextSlugs;
+  }
+  if (currentSlugs.length >= MAX_COMPARE_SELECTION) {
+    return currentSlugs;
+  }
+  return [...currentSlugs, slug];
+}
 
 const controlClassName =
   "min-h-12 w-full rounded-2xl border border-slate-200 bg-surface px-4 py-3 text-base text-slate-900 shadow-sm transition placeholder:text-slate-400 focus:border-accent focus:outline-none focus:ring-2 focus:ring-ring/25 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500 sm:min-h-11 sm:text-sm";
@@ -50,23 +73,6 @@ function numberFromSelectValue(rawValue: string): number | null {
     return null;
   }
   return parsed;
-}
-
-function formatParsedMoneyForList(field: ParsedMoneyField): string {
-  if (field.kind === "not_available") {
-    return "NA";
-  }
-  if (field.currency === "USD") {
-    return `${field.amount.toLocaleString("en-US")} USD`;
-  }
-  return `${field.amount.toLocaleString("en-US")} ₽`;
-}
-
-function formatMessForList(mess: MessChargesParsed): string {
-  if (mess.kind === "not_available") {
-    return "NA";
-  }
-  return `${mess.amountUsd.toLocaleString("en-US")} USD`;
 }
 
 type RubSelectProps = {
@@ -104,7 +110,7 @@ function RubFilterSelect(props: RubSelectProps) {
         <option value="">{anyLabel}</option>
         {optionsRub.map((amountRub) => (
           <option key={amountRub} value={String(amountRub)}>
-            {amountRub.toLocaleString("en-US")} ₽
+            {formatRubAmountInInr(amountRub)}
           </option>
         ))}
       </select>
@@ -116,6 +122,9 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
   const { colleges } = props;
   const [filters, setFilters] = useState<CollegeFilterState>(
     createInitialCollegeFilterState,
+  );
+  const [compareSlugs, setCompareSlugs] = useState<ReadonlyArray<string>>(
+    () => [],
   );
 
   const feeExtents = useMemo(
@@ -138,11 +147,27 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
     [colleges, filters],
   );
 
+  const collegeBySlug = useMemo(() => {
+    const map = new Map<string, College>();
+    for (let index = 0; index < colleges.length; index += 1) {
+      const college = colleges[index];
+      map.set(college.slug, college);
+    }
+    return map;
+  }, [colleges]);
+
+  const compareHref = useMemo(
+    () => buildUniversityComparePath(compareSlugs),
+    [compareSlugs],
+  );
+
   return (
-    <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 py-8 sm:gap-10 sm:px-6 sm:py-10 lg:gap-12 lg:px-8">
+    <div
+      className={`mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 py-8 sm:gap-10 sm:px-6 sm:py-10 lg:gap-12 lg:px-8 ${compareSlugs.length > 0 ? "pb-28 sm:pb-24" : ""}`}
+    >
       <header className="space-y-4">
         <p className="inline-flex w-fit items-center rounded-full border border-indigo-200/80 bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700 dark:border-indigo-500/30 dark:bg-indigo-950/50 dark:text-indigo-200">
-          Compare programs
+          Directory & compare
         </p>
         <div className="space-y-3">
           <h1 className="text-balance text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl dark:text-slate-50">
@@ -195,7 +220,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
           <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
             <RubFilterSelect
               id="tuition-min-rub"
-              label="Tuition — minimum (₽ normalized)"
+              label="Tuition — minimum (INR, approx.)"
               optionsRub={tuitionRubOptions}
               selectedRub={filters.tuitionMinRub}
               anyLabel="Any — no lower limit"
@@ -208,7 +233,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
             />
             <RubFilterSelect
               id="tuition-max-rub"
-              label="Tuition — maximum (₽ normalized)"
+              label="Tuition — maximum (INR, approx.)"
               optionsRub={tuitionRubOptions}
               selectedRub={filters.tuitionMaxRub}
               anyLabel="Any — no upper limit"
@@ -224,7 +249,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
           <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
             <RubFilterSelect
               id="hostel-min-rub"
-              label="Hostel — minimum (₽ normalized)"
+              label="Hostel — minimum (INR, approx.)"
               optionsRub={hostelRubOptions}
               selectedRub={filters.hostelMinRub}
               anyLabel="Any — no lower limit"
@@ -237,7 +262,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
             />
             <RubFilterSelect
               id="hostel-max-rub"
-              label="Hostel — maximum (₽ normalized)"
+              label="Hostel — maximum (INR, approx.)"
               optionsRub={hostelRubOptions}
               selectedRub={filters.hostelMaxRub}
               anyLabel="Any — no upper limit"
@@ -252,14 +277,20 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
         </div>
 
         <div className="mt-8 flex flex-col gap-4 border-t border-slate-100 pt-6 dark:border-slate-800/80 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-sm text-slate-600 dark:text-slate-400">
-            Showing{" "}
-            <span className="font-bold text-slate-900 dark:text-slate-100">
-              {visibleColleges.length}
-            </span>{" "}
-            <span className="text-slate-500 dark:text-slate-500">/</span>{" "}
-            {colleges.length} universities
-          </p>
+          <div className="space-y-1">
+            <p className="text-sm text-slate-600 dark:text-slate-400">
+              Showing{" "}
+              <span className="font-bold text-slate-900 dark:text-slate-100">
+                {visibleColleges.length}
+              </span>{" "}
+              <span className="text-slate-500 dark:text-slate-500">/</span>{" "}
+              {colleges.length} universities
+            </p>
+            <p className="text-xs leading-relaxed text-slate-500 dark:text-slate-500">
+              Listed fees use approximate INR (fixed reference rates for USD
+              and rubles). Confirm with the institution before paying.
+            </p>
+          </div>
           <button
             type="button"
             onClick={() => {
@@ -273,14 +304,23 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
       </section>
 
       <section aria-label="University results" className="space-y-5">
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
           <h2 className="text-lg font-bold text-slate-900 dark:text-slate-100">
             Results
           </h2>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            Add up to {MAX_COMPARE_SELECTION} universities to compare fees side
+            by side.
+          </p>
         </div>
 
         <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 xl:grid-cols-3">
-          {visibleColleges.map((college) => (
+          {visibleColleges.map((college) => {
+            const isCompareSelected = compareSlugs.includes(college.slug);
+            const isCompareDisabled =
+              isCompareSelected === false &&
+              compareSlugs.length >= MAX_COMPARE_SELECTION;
+            return (
             <li key={college.id} className="flex min-h-0">
               <article className="flex w-full flex-col overflow-hidden rounded-3xl border border-slate-200/90 bg-surface shadow-md shadow-slate-900/5 ring-1 ring-slate-900/5 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-indigo-500/10 dark:border-slate-800 dark:bg-slate-900 dark:shadow-black/30 dark:ring-white/10 dark:hover:shadow-indigo-500/5">
                 <div className="h-1.5 w-full" />
@@ -294,7 +334,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
                         Tuition
                       </dt>
                       <dd className="text-right font-semibold text-slate-900 dark:text-slate-100">
-                        {formatParsedMoneyForList(college.tuition)}
+                        {formatParsedMoneyFieldInr(college.tuition)}
                       </dd>
                     </div>
                     <div className="flex items-start justify-between gap-3 rounded-2xl bg-surface-muted/80 px-3 py-2.5 dark:bg-slate-800/60">
@@ -302,7 +342,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
                         Hostel
                       </dt>
                       <dd className="text-right font-semibold text-slate-900 dark:text-slate-100">
-                        {formatParsedMoneyForList(college.hostel)}
+                        {formatParsedMoneyFieldInr(college.hostel)}
                       </dd>
                     </div>
                     <div className="flex items-start justify-between gap-3 rounded-2xl bg-surface-muted/80 px-3 py-2.5 dark:bg-slate-800/60">
@@ -310,23 +350,48 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
                         Mess
                       </dt>
                       <dd className="text-right font-semibold text-slate-900 dark:text-slate-100">
-                        {formatMessForList(college.messCharges)}
+                        {formatMessChargesInr(
+                          college.messCharges,
+                          college.messChargesRaw,
+                        )}
                       </dd>
                     </div>
                   </dl>
-                  <Link
-                    href={`/colleges/${college.slug}`}
-                    className={primaryButtonClassName}
-                  >
-                    View full fee sheet
-                    <span aria-hidden className="text-lg leading-none">
-                      →
-                    </span>
-                  </Link>
+                  <div className="flex flex-col gap-3">
+                    <button
+                      type="button"
+                      disabled={isCompareDisabled}
+                      onClick={() => {
+                        setCompareSlugs((previous) =>
+                          withCompareSlugToggled(previous, college.slug),
+                        );
+                      }}
+                      className={
+                        isCompareSelected
+                          ? `${ghostButtonClassName} border-indigo-300 bg-indigo-50 text-indigo-900 dark:border-indigo-600 dark:bg-indigo-950/60 dark:text-indigo-100 cursor-pointer`
+                          : `${ghostButtonClassName} ${isCompareDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer"}`
+                      }
+                      aria-pressed={isCompareSelected}
+                    >
+                      {isCompareSelected
+                        ? "In compare — tap to remove"
+                        : "Add to compare"}
+                    </button>
+                    <Link
+                      href={`/colleges/${college.slug}`}
+                      className={primaryButtonClassName}
+                    >
+                      View details
+                      <span aria-hidden className="text-lg leading-none">
+                        →
+                      </span>
+                    </Link>
+                  </div>
                 </div>
               </article>
             </li>
-          ))}
+            );
+          })}
         </ul>
 
         {visibleColleges.length === 0 ? (
@@ -353,6 +418,73 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
           </div>
         ) : null}
       </section>
+
+      {compareSlugs.length > 0 ? (
+        <div
+          className="fixed inset-x-0 bottom-0 z-40 border-t border-slate-200/90 bg-background/95 px-4 py-4 shadow-[0_-8px_30px_rgba(15,23,42,0.12)] backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/95 dark:shadow-[0_-8px_30px_rgba(0,0,0,0.45)] sm:px-6"
+          role="region"
+          aria-label="University compare selection"
+        >
+          <div className="mx-auto flex w-full max-w-7xl flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+            <div className="min-w-0 flex-1 space-y-2">
+              <p className="text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                Compare ({compareSlugs.length}/{MAX_COMPARE_SELECTION})
+              </p>
+              <ul className="flex flex-wrap gap-2">
+                {compareSlugs.map((slug) => {
+                  const selectedCollege = collegeBySlug.get(slug);
+                  const label =
+                    selectedCollege !== undefined
+                      ? selectedCollege.universityName
+                      : slug;
+                  return (
+                    <li key={slug}>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setCompareSlugs((previous) =>
+                            withCompareSlugToggled(previous, slug),
+                          );
+                        }}
+                        className="inline-flex max-w-full items-center gap-2 rounded-full border border-slate-200 bg-surface px-3 py-1.5 text-left text-xs font-medium text-slate-800 shadow-sm transition hover:bg-surface-muted dark:border-slate-600 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800 sm:text-sm"
+                      >
+                        <span className="truncate">{label}</span>
+                        <span
+                          className="shrink-0 text-slate-400 dark:text-slate-500"
+                          aria-hidden
+                        >
+                          ×
+                        </span>
+                        <span className="sr-only">Remove from compare</span>
+                      </button>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+            <div className="flex w-full flex-col gap-2 sm:flex-row sm:items-center sm:justify-end lg:w-auto lg:shrink-0">
+              <button
+                type="button"
+                onClick={() => {
+                  setCompareSlugs([]);
+                }}
+                className={`${ghostButtonClassName} w-full sm:w-auto`}
+              >
+                Clear
+              </button>
+              <Link
+                href={compareHref}
+                className={`${primaryButtonClassName} w-full sm:w-auto`}
+              >
+                Open compare
+                <span aria-hidden className="text-lg leading-none">
+                  →
+                </span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s — Study Russia",
   },
   description:
-    "Search Russian universities, compare tuition and hostel fees, and view full fee schedules.",
+    "Search Russian universities, compare tuition and hostel in approximate INR, and view full fee schedules.",
 };
 
 export default function RootLayout({
