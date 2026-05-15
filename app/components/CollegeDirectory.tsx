@@ -316,10 +316,6 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
               <span className="text-slate-500 dark:text-slate-500">/</span>{" "}
               {colleges.length} universities
             </p>
-            <p className="text-xs leading-relaxed text-slate-500 dark:text-slate-500">
-              Listed fees use approximate INR (fixed reference rates for USD
-              and rubles). Confirm with the institution before paying.
-            </p>
           </div>
           <button
             type="button"
