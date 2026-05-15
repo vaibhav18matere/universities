@@ -9,7 +9,7 @@ export function SiteHeader() {
           className="group flex min-h-11 min-w-0 flex-col justify-center rounded-lg py-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background dark:focus-visible:ring-offset-background"
         >
           <span className="truncate text-base font-semibold tracking-tight text-slate-900 transition group-hover:text-accent dark:text-slate-100 dark:group-hover:text-accent">
-            Study Russia - University directory 
+            University Directory 
           </span>
           <span className="hidden text-xs font-medium text-slate-500 sm:block dark:text-slate-400">
             by Dr. Dipesh Rasal (MBBS, DMRE)

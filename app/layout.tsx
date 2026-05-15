@@ -22,11 +22,11 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Study Russia — University fees",
-    template: "%s — Study Russia",
+    default: "University Directory — University fees",
+    template: "%s — University Directory",
   },
   description:
-    "Search Russian universities, compare tuition and hostel in approximate INR, and view full fee schedules.",
+    "Search universities, compare tuition and hostel in approximate INR, and view full fee schedules.",
 };
 
 export default function RootLayout({
