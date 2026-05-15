@@ -166,9 +166,6 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
       className={`mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 py-8 sm:gap-10 sm:px-6 sm:py-10 lg:gap-12 lg:px-8 ${compareSlugs.length > 0 ? "pb-28 sm:pb-24" : ""}`}
     >
       <header className="space-y-4">
-        <p className="inline-flex w-fit items-center rounded-full border border-indigo-200/80 bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700 dark:border-indigo-500/30 dark:bg-indigo-950/50 dark:text-indigo-200">
-          Directory & compare
-        </p>
         <div className="space-y-3">
           <h1 className="text-balance text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl dark:text-slate-50">
             Find your university
