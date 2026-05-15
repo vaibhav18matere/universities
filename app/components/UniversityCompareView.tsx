@@ -14,6 +14,7 @@ import {
   formatRubAmountInInr,
   formatUsdAmountInInr,
 } from "@/lib/inr-display";
+import { resolveCollegeCountryLabel } from "@/lib/college-country-label";
 
 export type UniversityCompareColumn = {
   readonly slug: string;
@@ -61,6 +62,26 @@ function CompareRow(props: CompareRowProps) {
       ))}
     </tr>
   );
+}
+
+function buildCountryCompareCell(column: UniversityCompareColumn): string {
+  if (column.college === undefined) {
+    return "—";
+  }
+  return resolveCollegeCountryLabel(column.college.country);
+}
+
+function buildWebometricsWorldRankCompareCell(
+  column: UniversityCompareColumn,
+): string {
+  if (column.college === undefined) {
+    return "—";
+  }
+  const ranking = column.college.webometricsRanking;
+  if (ranking === undefined) {
+    return "—";
+  }
+  return String(ranking.worldRank);
 }
 
 function buildTuitionCell(column: UniversityCompareColumn): string {
@@ -112,6 +133,16 @@ function buildCompareMetricRows(
   columns: ReadonlyArray<UniversityCompareColumn>,
 ): ReadonlyArray<CompareMetricRow> {
   return [
+    {
+      label: "Country",
+      values: columns.map((column) => buildCountryCompareCell(column)),
+    },
+    {
+      label: "Webometrics world rank",
+      values: columns.map((column) =>
+        buildWebometricsWorldRankCompareCell(column),
+      ),
+    },
     {
       label: "Tuition (annual, INR approx.)",
       values: columns.map((column) => buildTuitionCell(column)),
@@ -370,6 +401,11 @@ function MobileCompareCarousel(props: MobileCompareCarouselProps) {
                     : "Not found"}
                 </h2>
                 {column.college !== undefined ? (
+                  <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-300">
+                    {resolveCollegeCountryLabel(column.college.country)}
+                  </p>
+                ) : null}
+                {column.college !== undefined ? (
                   <Link
                     href={`/colleges/${column.slug}`}
                     className="mt-2 inline-flex min-h-11 w-full items-center justify-center rounded-xl border border-slate-200 bg-surface px-3 py-2 text-sm font-semibold text-accent transition hover:bg-surface-muted dark:border-slate-600 dark:bg-slate-900 dark:hover:bg-slate-800"
@@ -478,6 +514,11 @@ export function UniversityCompareView(props: UniversityCompareViewProps) {
                             ? column.college.universityName
                             : "Not found"}
                         </span>
+                        {column.college !== undefined ? (
+                          <span className="text-xs font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-300">
+                            {resolveCollegeCountryLabel(column.college.country)}
+                          </span>
+                        ) : null}
                         {column.college !== undefined ? (
                           <Link
                             href={`/colleges/${column.slug}`}

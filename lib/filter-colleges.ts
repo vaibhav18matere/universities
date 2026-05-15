@@ -1,4 +1,5 @@
 import type { College, CollegeFilterState, ParsedMoneyField } from "./college-types";
+import { resolveCollegeCountryLabel } from "./college-country-label";
 
 function matchesSearch(college: College, query: string): boolean {
   if (query.length === 0) {
@@ -44,12 +45,25 @@ function matchesMoneyRange(
   return inRubRange(field.amountRub, minRub, maxRub);
 }
 
+function matchesCountry(
+  college: College,
+  selectedCountry: string | null,
+): boolean {
+  if (selectedCountry === null) {
+    return true;
+  }
+  return resolveCollegeCountryLabel(college.country) === selectedCountry;
+}
+
 export function filterColleges(
   colleges: ReadonlyArray<College>,
   filters: CollegeFilterState,
 ): ReadonlyArray<College> {
   return colleges.filter((college) => {
     if (!matchesSearch(college, filters.searchQuery)) {
+      return false;
+    }
+    if (!matchesCountry(college, filters.selectedCountry)) {
       return false;
     }
     if (

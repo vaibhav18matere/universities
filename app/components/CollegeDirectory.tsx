@@ -8,6 +8,7 @@ import {
   getTuitionRubFilterOptions,
 } from "@/lib/college-filter-options";
 import { computeListingFeeExtents } from "@/lib/college-fee-stats";
+import { getCountryFilterLabels } from "@/lib/college-country-filter-options";
 import { filterColleges } from "@/lib/filter-colleges";
 import {
   formatMessChargesInr,
@@ -15,6 +16,7 @@ import {
   formatRubAmountInInr,
 } from "@/lib/inr-display";
 import { buildUniversityComparePath } from "@/lib/university-compare-url";
+import { resolveCollegeCountryLabel } from "@/lib/college-country-label";
 
 type CollegeDirectoryProps = {
   readonly colleges: ReadonlyArray<College>;
@@ -57,6 +59,7 @@ const ghostButtonClassName =
 function createInitialCollegeFilterState(): CollegeFilterState {
   return {
     searchQuery: "",
+    selectedCountry: null,
     tuitionMinRub: null,
     tuitionMaxRub: null,
     hostelMinRub: null,
@@ -142,6 +145,11 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
     [colleges],
   );
 
+  const countryOptions = useMemo(
+    () => getCountryFilterLabels(colleges),
+    [colleges],
+  );
+
   const visibleColleges = useMemo(
     () => filterColleges(colleges, filters),
     [colleges, filters],
@@ -212,6 +220,31 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
               placeholder="Type a university name…"
               className={controlClassName}
             />
+          </div>
+
+          <div className="flex flex-col gap-2 lg:col-span-2">
+            <label className={labelClassName} htmlFor="country-filter">
+              Country
+            </label>
+            <select
+              id="country-filter"
+              value={filters.selectedCountry ?? ""}
+              onChange={(event) => {
+                const raw = event.target.value;
+                setFilters((previous) => ({
+                  ...previous,
+                  selectedCountry: raw.length === 0 ? null : raw,
+                }));
+              }}
+              className={controlClassName}
+            >
+              <option value="">All countries</option>
+              {countryOptions.map((countryLabel) => (
+                <option key={countryLabel} value={countryLabel}>
+                  {countryLabel}
+                </option>
+              ))}
+            </select>
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
@@ -325,6 +358,9 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
                   <h3 className="text-balance text-lg font-bold leading-snug text-slate-900 dark:text-slate-50">
                     {college.universityName}
                   </h3>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-300">
+                    {resolveCollegeCountryLabel(college.country)}
+                  </p>
                   <dl className="grid flex-1 gap-3 text-sm">
                     <div className="flex items-start justify-between gap-3 rounded-2xl bg-surface-muted/80 px-3 py-2.5 dark:bg-slate-800/60">
                       <dt className="font-medium text-slate-500 dark:text-slate-400">

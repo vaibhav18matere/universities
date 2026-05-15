@@ -23,12 +23,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
-        { "yearNumber": 2, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
-        { "yearNumber": 3, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
-        { "yearNumber": 4, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
-        { "yearNumber": 5, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" },
-        { "yearNumber": 6, "feeRubDisplay": "3,80,000 ₽", "feeInrDisplay": "₹ 4,94,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,80,000 ₽",
+          "feeInrDisplay": "₹ 4,94,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,80,000 ₽",
+          "feeInrDisplay": "₹ 4,94,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,80,000 ₽",
+          "feeInrDisplay": "₹ 4,94,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,80,000 ₽",
+          "feeInrDisplay": "₹ 4,94,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,80,000 ₽",
+          "feeInrDisplay": "₹ 4,94,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,80,000 ₽",
+          "feeInrDisplay": "₹ 4,94,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 29,64,000",
       "notes": [
@@ -38,7 +62,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -65,12 +92,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
-        { "yearNumber": 2, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
-        { "yearNumber": 3, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
-        { "yearNumber": 4, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
-        { "yearNumber": 5, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" },
-        { "yearNumber": 6, "feeRubDisplay": "6,60,000 ₽", "feeInrDisplay": "₹ 8,58,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "6,60,000 ₽",
+          "feeInrDisplay": "₹ 8,58,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "6,60,000 ₽",
+          "feeInrDisplay": "₹ 8,58,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "6,60,000 ₽",
+          "feeInrDisplay": "₹ 8,58,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "6,60,000 ₽",
+          "feeInrDisplay": "₹ 8,58,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "6,60,000 ₽",
+          "feeInrDisplay": "₹ 8,58,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "6,60,000 ₽",
+          "feeInrDisplay": "₹ 8,58,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 51,48,000",
       "notes": [
@@ -80,7 +131,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -117,12 +171,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
-        { "yearNumber": 2, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
-        { "yearNumber": 3, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
-        { "yearNumber": 4, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
-        { "yearNumber": 5, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" },
-        { "yearNumber": 6, "feeRubDisplay": "3,30,000 ₽", "feeInrDisplay": "₹ 4,29,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,30,000 ₽",
+          "feeInrDisplay": "₹ 4,29,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,30,000 ₽",
+          "feeInrDisplay": "₹ 4,29,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,30,000 ₽",
+          "feeInrDisplay": "₹ 4,29,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,30,000 ₽",
+          "feeInrDisplay": "₹ 4,29,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,30,000 ₽",
+          "feeInrDisplay": "₹ 4,29,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,30,000 ₽",
+          "feeInrDisplay": "₹ 4,29,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 25,74,000",
       "notes": [
@@ -132,7 +210,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -159,12 +240,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
-        { "yearNumber": 2, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
-        { "yearNumber": 3, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
-        { "yearNumber": 4, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
-        { "yearNumber": 5, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" },
-        { "yearNumber": 6, "feeRubDisplay": "5,00,000 ₽", "feeInrDisplay": "₹ 6,50,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "5,00,000 ₽",
+          "feeInrDisplay": "₹ 6,50,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "5,00,000 ₽",
+          "feeInrDisplay": "₹ 6,50,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "5,00,000 ₽",
+          "feeInrDisplay": "₹ 6,50,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "5,00,000 ₽",
+          "feeInrDisplay": "₹ 6,50,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "5,00,000 ₽",
+          "feeInrDisplay": "₹ 6,50,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "5,00,000 ₽",
+          "feeInrDisplay": "₹ 6,50,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 39,00,000",
       "notes": [
@@ -174,7 +279,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -211,12 +319,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
-        { "yearNumber": 2, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
-        { "yearNumber": 3, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
-        { "yearNumber": 4, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
-        { "yearNumber": 5, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" },
-        { "yearNumber": 6, "feeRubDisplay": "4,05,000 ₽", "feeInrDisplay": "₹ 5,26,500" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "4,05,000 ₽",
+          "feeInrDisplay": "₹ 5,26,500"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "4,05,000 ₽",
+          "feeInrDisplay": "₹ 5,26,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "4,05,000 ₽",
+          "feeInrDisplay": "₹ 5,26,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "4,05,000 ₽",
+          "feeInrDisplay": "₹ 5,26,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "4,05,000 ₽",
+          "feeInrDisplay": "₹ 5,26,500"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "4,05,000 ₽",
+          "feeInrDisplay": "₹ 5,26,500"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 31,59,000",
       "notes": [
@@ -226,7 +358,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -253,12 +388,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
-        { "yearNumber": 2, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
-        { "yearNumber": 3, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
-        { "yearNumber": 4, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
-        { "yearNumber": 5, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" },
-        { "yearNumber": 6, "feeRubDisplay": "3,85,600 ₽", "feeInrDisplay": "₹ 5,01,280" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,85,600 ₽",
+          "feeInrDisplay": "₹ 5,01,280"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,85,600 ₽",
+          "feeInrDisplay": "₹ 5,01,280"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,85,600 ₽",
+          "feeInrDisplay": "₹ 5,01,280"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,85,600 ₽",
+          "feeInrDisplay": "₹ 5,01,280"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,85,600 ₽",
+          "feeInrDisplay": "₹ 5,01,280"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,85,600 ₽",
+          "feeInrDisplay": "₹ 5,01,280"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 30,07,680",
       "notes": [
@@ -268,7 +427,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -345,12 +507,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
-        { "yearNumber": 2, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
-        { "yearNumber": 3, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
-        { "yearNumber": 4, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
-        { "yearNumber": 5, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" },
-        { "yearNumber": 6, "feeRubDisplay": "5,06,000 ₽", "feeInrDisplay": "₹ 6,57,800" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "5,06,000 ₽",
+          "feeInrDisplay": "₹ 6,57,800"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "5,06,000 ₽",
+          "feeInrDisplay": "₹ 6,57,800"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "5,06,000 ₽",
+          "feeInrDisplay": "₹ 6,57,800"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "5,06,000 ₽",
+          "feeInrDisplay": "₹ 6,57,800"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "5,06,000 ₽",
+          "feeInrDisplay": "₹ 6,57,800"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "5,06,000 ₽",
+          "feeInrDisplay": "₹ 6,57,800"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 39,46,800",
       "notes": [
@@ -360,7 +546,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -407,12 +596,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 2, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 3, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 4, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 5, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 6, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 28,08,000",
       "notes": [
@@ -422,7 +635,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -459,12 +675,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
-        { "yearNumber": 2, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
-        { "yearNumber": 3, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
-        { "yearNumber": 4, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
-        { "yearNumber": 5, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" },
-        { "yearNumber": 6, "feeRubDisplay": "4,30,000 ₽", "feeInrDisplay": "₹ 5,59,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "4,30,000 ₽",
+          "feeInrDisplay": "₹ 5,59,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "4,30,000 ₽",
+          "feeInrDisplay": "₹ 5,59,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "4,30,000 ₽",
+          "feeInrDisplay": "₹ 5,59,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "4,30,000 ₽",
+          "feeInrDisplay": "₹ 5,59,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "4,30,000 ₽",
+          "feeInrDisplay": "₹ 5,59,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "4,30,000 ₽",
+          "feeInrDisplay": "₹ 5,59,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 33,54,000",
       "notes": [
@@ -474,7 +714,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -501,12 +744,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
-        { "yearNumber": 2, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
-        { "yearNumber": 3, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
-        { "yearNumber": 4, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
-        { "yearNumber": 5, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" },
-        { "yearNumber": 6, "feeRubDisplay": "3,70,000 ₽", "feeInrDisplay": "₹ 4,81,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,70,000 ₽",
+          "feeInrDisplay": "₹ 4,81,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,70,000 ₽",
+          "feeInrDisplay": "₹ 4,81,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,70,000 ₽",
+          "feeInrDisplay": "₹ 4,81,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,70,000 ₽",
+          "feeInrDisplay": "₹ 4,81,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,70,000 ₽",
+          "feeInrDisplay": "₹ 4,81,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,70,000 ₽",
+          "feeInrDisplay": "₹ 4,81,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 28,86,000",
       "notes": [
@@ -516,7 +783,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -543,12 +813,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
-        { "yearNumber": 2, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
-        { "yearNumber": 3, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
-        { "yearNumber": 4, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
-        { "yearNumber": 5, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" },
-        { "yearNumber": 6, "feeRubDisplay": "4,97,200 ₽", "feeInrDisplay": "₹ 6,46,360" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "4,97,200 ₽",
+          "feeInrDisplay": "₹ 6,46,360"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "4,97,200 ₽",
+          "feeInrDisplay": "₹ 6,46,360"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "4,97,200 ₽",
+          "feeInrDisplay": "₹ 6,46,360"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "4,97,200 ₽",
+          "feeInrDisplay": "₹ 6,46,360"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "4,97,200 ₽",
+          "feeInrDisplay": "₹ 6,46,360"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "4,97,200 ₽",
+          "feeInrDisplay": "₹ 6,46,360"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 38,78,160",
       "notes": [
@@ -558,7 +852,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -585,12 +882,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
-        { "yearNumber": 2, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
-        { "yearNumber": 3, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
-        { "yearNumber": 4, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
-        { "yearNumber": 5, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" },
-        { "yearNumber": 6, "feeRubDisplay": "3,47,380 ₽", "feeInrDisplay": "₹ 4,51,594" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,47,380 ₽",
+          "feeInrDisplay": "₹ 4,51,594"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,47,380 ₽",
+          "feeInrDisplay": "₹ 4,51,594"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,47,380 ₽",
+          "feeInrDisplay": "₹ 4,51,594"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,47,380 ₽",
+          "feeInrDisplay": "₹ 4,51,594"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,47,380 ₽",
+          "feeInrDisplay": "₹ 4,51,594"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,47,380 ₽",
+          "feeInrDisplay": "₹ 4,51,594"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 27,09,564",
       "notes": [
@@ -600,7 +921,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -637,12 +961,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
-        { "yearNumber": 2, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
-        { "yearNumber": 3, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
-        { "yearNumber": 4, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
-        { "yearNumber": 5, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" },
-        { "yearNumber": 6, "feeRubDisplay": "3,85,000 ₽", "feeInrDisplay": "₹ 5,00,500" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,85,000 ₽",
+          "feeInrDisplay": "₹ 5,00,500"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,85,000 ₽",
+          "feeInrDisplay": "₹ 5,00,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,85,000 ₽",
+          "feeInrDisplay": "₹ 5,00,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,85,000 ₽",
+          "feeInrDisplay": "₹ 5,00,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,85,000 ₽",
+          "feeInrDisplay": "₹ 5,00,500"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,85,000 ₽",
+          "feeInrDisplay": "₹ 5,00,500"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 30,03,000",
       "notes": [
@@ -652,7 +1000,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -679,12 +1030,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
-        { "yearNumber": 2, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
-        { "yearNumber": 3, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
-        { "yearNumber": 4, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
-        { "yearNumber": 5, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" },
-        { "yearNumber": 6, "feeRubDisplay": "4,90,000 ₽", "feeInrDisplay": "₹ 6,37,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "4,90,000 ₽",
+          "feeInrDisplay": "₹ 6,37,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "4,90,000 ₽",
+          "feeInrDisplay": "₹ 6,37,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "4,90,000 ₽",
+          "feeInrDisplay": "₹ 6,37,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "4,90,000 ₽",
+          "feeInrDisplay": "₹ 6,37,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "4,90,000 ₽",
+          "feeInrDisplay": "₹ 6,37,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "4,90,000 ₽",
+          "feeInrDisplay": "₹ 6,37,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 38,22,000",
       "notes": [
@@ -694,7 +1069,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -742,12 +1120,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
-        { "yearNumber": 2, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
-        { "yearNumber": 3, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
-        { "yearNumber": 4, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
-        { "yearNumber": 5, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" },
-        { "yearNumber": 6, "feeRubDisplay": "2,45,000 ₽", "feeInrDisplay": "₹ 3,18,500" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "2,45,000 ₽",
+          "feeInrDisplay": "₹ 3,18,500"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "2,45,000 ₽",
+          "feeInrDisplay": "₹ 3,18,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "2,45,000 ₽",
+          "feeInrDisplay": "₹ 3,18,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "2,45,000 ₽",
+          "feeInrDisplay": "₹ 3,18,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "2,45,000 ₽",
+          "feeInrDisplay": "₹ 3,18,500"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "2,45,000 ₽",
+          "feeInrDisplay": "₹ 3,18,500"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 19,11,000",
       "notes": [
@@ -757,7 +1159,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -784,12 +1189,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 2, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 3, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 4, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 5, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 6, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 27,30,000",
       "notes": [
@@ -799,7 +1228,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -836,12 +1268,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
-        { "yearNumber": 2, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
-        { "yearNumber": 3, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
-        { "yearNumber": 4, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
-        { "yearNumber": 5, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" },
-        { "yearNumber": 6, "feeRubDisplay": "4,85,000 ₽", "feeInrDisplay": "₹ 6,30,500" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "4,85,000 ₽",
+          "feeInrDisplay": "₹ 6,30,500"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "4,85,000 ₽",
+          "feeInrDisplay": "₹ 6,30,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "4,85,000 ₽",
+          "feeInrDisplay": "₹ 6,30,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "4,85,000 ₽",
+          "feeInrDisplay": "₹ 6,30,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "4,85,000 ₽",
+          "feeInrDisplay": "₹ 6,30,500"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "4,85,000 ₽",
+          "feeInrDisplay": "₹ 6,30,500"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 37,83,000",
       "notes": [
@@ -851,7 +1307,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -888,12 +1347,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
-        { "yearNumber": 2, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
-        { "yearNumber": 3, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
-        { "yearNumber": 4, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
-        { "yearNumber": 5, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" },
-        { "yearNumber": 6, "feeRubDisplay": "5,50,000 ₽", "feeInrDisplay": "₹ 7,15,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "5,50,000 ₽",
+          "feeInrDisplay": "₹ 7,15,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "5,50,000 ₽",
+          "feeInrDisplay": "₹ 7,15,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "5,50,000 ₽",
+          "feeInrDisplay": "₹ 7,15,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "5,50,000 ₽",
+          "feeInrDisplay": "₹ 7,15,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "5,50,000 ₽",
+          "feeInrDisplay": "₹ 7,15,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "5,50,000 ₽",
+          "feeInrDisplay": "₹ 7,15,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 42,90,000",
       "notes": [
@@ -903,7 +1386,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -930,12 +1416,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 2, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 3, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 4, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 5, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" },
-        { "yearNumber": 6, "feeRubDisplay": "3,50,000 ₽", "feeInrDisplay": "₹ 4,55,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,50,000 ₽",
+          "feeInrDisplay": "₹ 4,55,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 27,30,000",
       "notes": [
@@ -945,7 +1455,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -972,12 +1485,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
-        { "yearNumber": 2, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
-        { "yearNumber": 3, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
-        { "yearNumber": 4, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
-        { "yearNumber": 5, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" },
-        { "yearNumber": 6, "feeRubDisplay": "5,10,000 ₽", "feeInrDisplay": "₹ 6,63,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "5,10,000 ₽",
+          "feeInrDisplay": "₹ 6,63,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "5,10,000 ₽",
+          "feeInrDisplay": "₹ 6,63,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "5,10,000 ₽",
+          "feeInrDisplay": "₹ 6,63,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "5,10,000 ₽",
+          "feeInrDisplay": "₹ 6,63,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "5,10,000 ₽",
+          "feeInrDisplay": "₹ 6,63,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "5,10,000 ₽",
+          "feeInrDisplay": "₹ 6,63,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 39,78,000",
       "notes": [
@@ -987,7 +1524,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1014,12 +1554,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
-        { "yearNumber": 2, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
-        { "yearNumber": 3, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
-        { "yearNumber": 4, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
-        { "yearNumber": 5, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" },
-        { "yearNumber": 6, "feeRubDisplay": "3,35,000 ₽", "feeInrDisplay": "₹ 4,35,500" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,35,000 ₽",
+          "feeInrDisplay": "₹ 4,35,500"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,35,000 ₽",
+          "feeInrDisplay": "₹ 4,35,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,35,000 ₽",
+          "feeInrDisplay": "₹ 4,35,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,35,000 ₽",
+          "feeInrDisplay": "₹ 4,35,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,35,000 ₽",
+          "feeInrDisplay": "₹ 4,35,500"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,35,000 ₽",
+          "feeInrDisplay": "₹ 4,35,500"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 26,13,000",
       "notes": [
@@ -1029,7 +1593,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1056,12 +1623,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
-        { "yearNumber": 2, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
-        { "yearNumber": 3, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
-        { "yearNumber": 4, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
-        { "yearNumber": 5, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" },
-        { "yearNumber": 6, "feeRubDisplay": "2,99,000 ₽", "feeInrDisplay": "₹ 3,88,700" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "2,99,000 ₽",
+          "feeInrDisplay": "₹ 3,88,700"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "2,99,000 ₽",
+          "feeInrDisplay": "₹ 3,88,700"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "2,99,000 ₽",
+          "feeInrDisplay": "₹ 3,88,700"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "2,99,000 ₽",
+          "feeInrDisplay": "₹ 3,88,700"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "2,99,000 ₽",
+          "feeInrDisplay": "₹ 3,88,700"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "2,99,000 ₽",
+          "feeInrDisplay": "₹ 3,88,700"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 23,32,200",
       "notes": [
@@ -1071,7 +1662,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1098,12 +1692,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
-        { "yearNumber": 2, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
-        { "yearNumber": 3, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
-        { "yearNumber": 4, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
-        { "yearNumber": 5, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" },
-        { "yearNumber": 6, "feeRubDisplay": "2,85,000 ₽", "feeInrDisplay": "₹ 3,70,500" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "2,85,000 ₽",
+          "feeInrDisplay": "₹ 3,70,500"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "2,85,000 ₽",
+          "feeInrDisplay": "₹ 3,70,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "2,85,000 ₽",
+          "feeInrDisplay": "₹ 3,70,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "2,85,000 ₽",
+          "feeInrDisplay": "₹ 3,70,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "2,85,000 ₽",
+          "feeInrDisplay": "₹ 3,70,500"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "2,85,000 ₽",
+          "feeInrDisplay": "₹ 3,70,500"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 22,23,000",
       "notes": [
@@ -1113,7 +1731,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1140,12 +1761,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
-        { "yearNumber": 2, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
-        { "yearNumber": 3, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
-        { "yearNumber": 4, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
-        { "yearNumber": 5, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" },
-        { "yearNumber": 6, "feeRubDisplay": "3,24,000 ₽", "feeInrDisplay": "₹ 4,21,200" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,24,000 ₽",
+          "feeInrDisplay": "₹ 4,21,200"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,24,000 ₽",
+          "feeInrDisplay": "₹ 4,21,200"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,24,000 ₽",
+          "feeInrDisplay": "₹ 4,21,200"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,24,000 ₽",
+          "feeInrDisplay": "₹ 4,21,200"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,24,000 ₽",
+          "feeInrDisplay": "₹ 4,21,200"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,24,000 ₽",
+          "feeInrDisplay": "₹ 4,21,200"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 25,27,200",
       "notes": [
@@ -1155,7 +1800,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1182,12 +1830,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
-        { "yearNumber": 2, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
-        { "yearNumber": 3, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
-        { "yearNumber": 4, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
-        { "yearNumber": 5, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" },
-        { "yearNumber": 6, "feeRubDisplay": "4,10,000 ₽", "feeInrDisplay": "₹ 5,33,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "4,10,000 ₽",
+          "feeInrDisplay": "₹ 5,33,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "4,10,000 ₽",
+          "feeInrDisplay": "₹ 5,33,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "4,10,000 ₽",
+          "feeInrDisplay": "₹ 5,33,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "4,10,000 ₽",
+          "feeInrDisplay": "₹ 5,33,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "4,10,000 ₽",
+          "feeInrDisplay": "₹ 5,33,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "4,10,000 ₽",
+          "feeInrDisplay": "₹ 5,33,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 31,98,000",
       "notes": [
@@ -1197,7 +1869,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1224,12 +1899,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
-        { "yearNumber": 2, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
-        { "yearNumber": 3, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
-        { "yearNumber": 4, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
-        { "yearNumber": 5, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" },
-        { "yearNumber": 6, "feeRubDisplay": "4,50,000 ₽", "feeInrDisplay": "₹ 5,85,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "4,50,000 ₽",
+          "feeInrDisplay": "₹ 5,85,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "4,50,000 ₽",
+          "feeInrDisplay": "₹ 5,85,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "4,50,000 ₽",
+          "feeInrDisplay": "₹ 5,85,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "4,50,000 ₽",
+          "feeInrDisplay": "₹ 5,85,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "4,50,000 ₽",
+          "feeInrDisplay": "₹ 5,85,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "4,50,000 ₽",
+          "feeInrDisplay": "₹ 5,85,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 35,10,000",
       "notes": [
@@ -1239,7 +1938,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1266,12 +1968,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
-        { "yearNumber": 2, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
-        { "yearNumber": 3, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
-        { "yearNumber": 4, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
-        { "yearNumber": 5, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" },
-        { "yearNumber": 6, "feeRubDisplay": "3,25,100 ₽", "feeInrDisplay": "₹ 4,22,630" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,25,100 ₽",
+          "feeInrDisplay": "₹ 4,22,630"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,25,100 ₽",
+          "feeInrDisplay": "₹ 4,22,630"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,25,100 ₽",
+          "feeInrDisplay": "₹ 4,22,630"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,25,100 ₽",
+          "feeInrDisplay": "₹ 4,22,630"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,25,100 ₽",
+          "feeInrDisplay": "₹ 4,22,630"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,25,100 ₽",
+          "feeInrDisplay": "₹ 4,22,630"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 25,35,780",
       "notes": [
@@ -1281,7 +2007,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1308,12 +2037,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
-        { "yearNumber": 2, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
-        { "yearNumber": 3, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
-        { "yearNumber": 4, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
-        { "yearNumber": 5, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" },
-        { "yearNumber": 6, "feeRubDisplay": "3,75,000 ₽", "feeInrDisplay": "₹ 4,87,500" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,75,000 ₽",
+          "feeInrDisplay": "₹ 4,87,500"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,75,000 ₽",
+          "feeInrDisplay": "₹ 4,87,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,75,000 ₽",
+          "feeInrDisplay": "₹ 4,87,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,75,000 ₽",
+          "feeInrDisplay": "₹ 4,87,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,75,000 ₽",
+          "feeInrDisplay": "₹ 4,87,500"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,75,000 ₽",
+          "feeInrDisplay": "₹ 4,87,500"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 29,25,000",
       "notes": [
@@ -1323,7 +2076,10 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
   },
   {
@@ -1350,12 +2106,36 @@
         "Police registration"
       ],
       "tuitionYearRows": [
-        { "yearNumber": 1, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 2, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 3, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 4, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 5, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" },
-        { "yearNumber": 6, "feeRubDisplay": "3,60,000 ₽", "feeInrDisplay": "₹ 4,68,000" }
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "3,60,000 ₽",
+          "feeInrDisplay": "₹ 4,68,000"
+        }
       ],
       "totalTuitionSixYearsInrDisplay": "₹ 28,08,000",
       "notes": [
@@ -1365,7 +2145,3553 @@
         "Listed tuition fees do not include hostel and food charges.",
         "Expenditure for internship may be applicable as per government norms."
       ],
-      "contactPhoneNumbers": ["9595718686", "7058362626"]
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
     }
+  },
+  {
+    "id": "45",
+    "universityName": "Ivane Javakhishvili Tbilisi State University",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 1,
+      "worldRank": 1548,
+      "impactRank": 1502,
+      "opennessRank": 1234,
+      "excellenceRank": 2567
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "46",
+    "universityName": "Ilia State University",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 2,
+      "worldRank": 2145,
+      "impactRank": 2345,
+      "opennessRank": 1567,
+      "excellenceRank": 3456
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "47",
+    "universityName": "Georgian Technical University",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 3,
+      "worldRank": 2876,
+      "impactRank": 3456,
+      "opennessRank": 2345,
+      "excellenceRank": 4567
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "48",
+    "universityName": "Tbilisi State Medical University",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 4,
+      "worldRank": 3456,
+      "impactRank": 4567,
+      "opennessRank": 3456,
+      "excellenceRank": 5678
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "49",
+    "universityName": "Akaki Tsereteli State University",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 5,
+      "worldRank": 4567,
+      "impactRank": 5678,
+      "opennessRank": 4567,
+      "excellenceRank": 6789
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "50",
+    "universityName": "Batumi Shota Rustaveli State University",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 6,
+      "worldRank": 5678,
+      "impactRank": 6789,
+      "opennessRank": 5678,
+      "excellenceRank": 7890
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "51",
+    "universityName": "International Black Sea University",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 7,
+      "worldRank": 6789,
+      "impactRank": 7890,
+      "opennessRank": 6789,
+      "excellenceRank": 8901
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "52",
+    "universityName": "Caucasus University",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 8,
+      "worldRank": 7890,
+      "impactRank": 8901,
+      "opennessRank": 7890,
+      "excellenceRank": 9012
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "53",
+    "universityName": "Free University of Tbilisi",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 9,
+      "worldRank": 8901,
+      "impactRank": 9012,
+      "opennessRank": 8901,
+      "excellenceRank": 10123
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "54",
+    "universityName": "Agricultural University of Georgia",
+    "country": "Georgia",
+    "webometricsRanking": {
+      "countryRank": 10,
+      "worldRank": 9012,
+      "impactRank": 10123,
+      "opennessRank": 9012,
+      "excellenceRank": 11234
+    },
+    "tuitionFeesRaw": "NA",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0
+  },
+  {
+    "id": "55",
+    "universityName": "Bukhara State Medical University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3200 USD",
+    "hostelFeesRaw": "400 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,200 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,75,200"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,600 / yr",
+          "feeInrDisplay": "₹ 3,09,600"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,600 / yr",
+          "feeInrDisplay": "₹ 3,09,600"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,600 / yr",
+          "feeInrDisplay": "₹ 3,09,600"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,600 / yr",
+          "feeInrDisplay": "₹ 3,09,600"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,600 / yr",
+          "feeInrDisplay": "₹ 3,09,600"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 17,66,400",
+      "notes": [
+        "Administration charge (year 1): USD 400.",
+        "1st year total package (fee sheet): approx ₹ 7,73,000 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,600 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "56",
+    "universityName": "Samarkand State Medical University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3500 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,850 / yr",
+          "feeInrDisplay": "₹ 3,31,100"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,850 / yr",
+          "feeInrDisplay": "₹ 3,31,100"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,850 / yr",
+          "feeInrDisplay": "₹ 3,31,100"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,850 / yr",
+          "feeInrDisplay": "₹ 3,31,100"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,850 / yr",
+          "feeInrDisplay": "₹ 3,31,100"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,32,000",
+      "notes": [
+        "Administration charge (year 1): USD 350.",
+        "1st year total package (fee sheet): approx ₹ 8,14,400 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,850 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "57",
+    "universityName": "Tashkent State Medical University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3500 USD",
+    "hostelFeesRaw": "700 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,32,000",
+      "notes": [
+        "Administration charge (year 1): USD 1000.",
+        "1st year total package (fee sheet): approx ₹ 8,83,400 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 4,500 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "58",
+    "universityName": "Alfraganus University Faculty of Medicine",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3500 USD",
+    "hostelFeesRaw": "800 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,32,000",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 8,00,600 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,500 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "59",
+    "universityName": "Fergana State University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3600 USD",
+    "hostelFeesRaw": "750 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,600 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,09,600"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,900 / yr",
+          "feeInrDisplay": "₹ 3,35,400"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,900 / yr",
+          "feeInrDisplay": "₹ 3,35,400"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,900 / yr",
+          "feeInrDisplay": "₹ 3,35,400"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,900 / yr",
+          "feeInrDisplay": "₹ 3,35,400"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,900 / yr",
+          "feeInrDisplay": "₹ 3,35,400"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,87,200",
+      "notes": [
+        "Administration charge (year 1): USD 300.",
+        "1st year total package (fee sheet): approx ₹ 8,32,800 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,900 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "60",
+    "universityName": "Profi University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "4500 USD",
+    "hostelFeesRaw": "700 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 4,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 24,84,000",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 8,83,400 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 4,500 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "61",
+    "universityName": "Andijan State Medical Institute",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3500 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,32,000",
+      "notes": [
+        "Administration charge (year 1): USD 300.",
+        "1st year total package (fee sheet): approx ₹ 8,00,600 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,800 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "62",
+    "universityName": "Gulistan State University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "2800 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 2,800 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,40,800"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,100 / yr",
+          "feeInrDisplay": "₹ 2,66,600"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,100 / yr",
+          "feeInrDisplay": "₹ 2,66,600"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,100 / yr",
+          "feeInrDisplay": "₹ 2,66,600"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,100 / yr",
+          "feeInrDisplay": "₹ 2,66,600"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,100 / yr",
+          "feeInrDisplay": "₹ 2,66,600"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 15,45,600",
+      "notes": [
+        "Administration charge (year 1): USD 300.",
+        "1st year total package (fee sheet): approx ₹ 7,45,400 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,100 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "63",
+    "universityName": "Tashkent Pharmaceutical Institute",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3200 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,200 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,75,200"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 17,66,400",
+      "notes": [
+        "Administration charge (year 1): USD 300.",
+        "1st year total package (fee sheet): approx ₹ 7,82,200 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,500 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "64",
+    "universityName": "Karshi State University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3000 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,58,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,400 / yr",
+          "feeInrDisplay": "₹ 2,92,400"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,400 / yr",
+          "feeInrDisplay": "₹ 2,92,400"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,400 / yr",
+          "feeInrDisplay": "₹ 2,92,400"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,400 / yr",
+          "feeInrDisplay": "₹ 2,92,400"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,400 / yr",
+          "feeInrDisplay": "₹ 2,92,400"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 16,56,000",
+      "notes": [
+        "Administration charge (year 1): USD 400.",
+        "1st year total package (fee sheet): approx ₹ 7,73,000 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,400 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "65",
+    "universityName": "Namangan State University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3200 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,200 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,75,200"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 17,66,400",
+      "notes": [
+        "Administration charge (year 1): USD 300.",
+        "1st year total package (fee sheet): approx ₹ 7,82,200 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,500 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "66",
+    "universityName": "Navoi State University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "4500 USD",
+    "hostelFeesRaw": "700 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 4,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,850 / yr",
+          "feeInrDisplay": "₹ 4,17,100"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,850 / yr",
+          "feeInrDisplay": "₹ 4,17,100"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,850 / yr",
+          "feeInrDisplay": "₹ 4,17,100"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,850 / yr",
+          "feeInrDisplay": "₹ 4,17,100"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,850 / yr",
+          "feeInrDisplay": "₹ 4,17,100"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 24,84,000",
+      "notes": [
+        "Administration charge (year 1): USD 350.",
+        "1st year total package (fee sheet): approx ₹ 9,15,600 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 4,850 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "67",
+    "universityName": "Karakalpakstan Medical Institute, Nukus",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "2900 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 2,900 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,49,400"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,250 / yr",
+          "feeInrDisplay": "₹ 2,79,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,250 / yr",
+          "feeInrDisplay": "₹ 2,79,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,250 / yr",
+          "feeInrDisplay": "₹ 2,79,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,250 / yr",
+          "feeInrDisplay": "₹ 2,79,500"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,250 / yr",
+          "feeInrDisplay": "₹ 2,79,500"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 16,00,800",
+      "notes": [
+        "Administration charge (year 1): USD 350.",
+        "1st year total package (fee sheet): approx ₹ 7,59,200 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,250 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "68",
+    "universityName": "Profi University (USD 3,500 first-year programme)",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3500 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,32,000",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 7,82,200 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,500 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "69",
+    "universityName": "Angren University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "2600 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 2,600 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 14,35,200",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 6,90,200 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 2,600 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "70",
+    "universityName": "Bukhara Innovative Medical Institute",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "2900 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 2,900 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,49,400"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 2,900 / yr",
+          "feeInrDisplay": "₹ 2,49,400"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 2,900 / yr",
+          "feeInrDisplay": "₹ 2,49,400"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 2,900 / yr",
+          "feeInrDisplay": "₹ 2,49,400"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 2,900 / yr",
+          "feeInrDisplay": "₹ 2,49,400"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 2,900 / yr",
+          "feeInrDisplay": "₹ 2,49,400"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 16,00,800",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 7,27,000 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 2,900 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "71",
+    "universityName": "Impuls Medical Institute",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3300 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,300 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,83,800"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,300 / yr",
+          "feeInrDisplay": "₹ 2,83,800"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,300 / yr",
+          "feeInrDisplay": "₹ 2,83,800"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,300 / yr",
+          "feeInrDisplay": "₹ 2,83,800"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,300 / yr",
+          "feeInrDisplay": "₹ 2,83,800"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,300 / yr",
+          "feeInrDisplay": "₹ 2,83,800"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 18,21,600",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 7,54,600 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,300 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "72",
+    "universityName": "Central Asian Medical University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "5000 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 5,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 5,000 / yr",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 5,000 / yr",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 5,000 / yr",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 5,000 / yr",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 5,000 / yr",
+          "feeInrDisplay": "₹ 4,30,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 27,60,000",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 9,11,000 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 5,000 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "73",
+    "universityName": "Asia International University Faculty of Medicine",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "2600 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 2,600 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 14,35,200",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 6,99,400 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 2,600 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "74",
+    "universityName": "Zarmed University",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "2600 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 2,600 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 2,600 / yr",
+          "feeInrDisplay": "₹ 2,23,600"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 14,35,200",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 6,90,200 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 2,600 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "75",
+    "universityName": "Zarmed University (By Appolo Hospital)",
+    "country": "Uzbekistan",
+    "tuitionFeesRaw": "3000 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 46000,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 187209,
+    "brochureExtension": {
+      "brochureTagline": "Uzbekistan fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "6-year MBBS programme (confirm internship rules with the university).",
+      "processingFeesInrDisplay": "₹ 1,75,000",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "Police registration support",
+        "University coordination"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 2,58,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,000 / yr",
+          "feeInrDisplay": "₹ 2,58,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,000 / yr",
+          "feeInrDisplay": "₹ 2,58,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,000 / yr",
+          "feeInrDisplay": "₹ 2,58,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,000 / yr",
+          "feeInrDisplay": "₹ 2,58,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,000 / yr",
+          "feeInrDisplay": "₹ 2,58,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 16,56,000",
+      "notes": [
+        "No separate administration charge on the sheet.",
+        "1st year total package (fee sheet): approx ₹ 7,36,200 — confirm inclusions with your counsellor.",
+        "Medical check-up & documentation: USD 500 (shown in the medical bundle line on the fee sheet).",
+        "OTC (one-time): USD 2,000.",
+        "Tuition years 2–6: USD 3,000 per year.",
+        "INR amounts are indicative; pay per university invoice in the stated currency."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    }
+  },
+  {
+    "id": "76",
+    "universityName": "Cairo University, Cairo",
+    "country": "Egypt",
+    "tuitionFeesRaw": "8000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 5000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Egypt fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5 tuition); confirm full programme structure with the university.",
+      "processingFeesInrDisplay": "Additional USD charges — see notes",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University registration support",
+        "Pre-departure checklist",
+        "Ongoing counsellor support"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 6,88,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 30,96,000",
+      "notes": [
+        "1st year fees (fee sheet, all-in figure shown): approx ₹ 10,92,000 — confirm exactly what this includes (tuition, OTC, etc.).",
+        "Year 1 tuition (for comparison): USD 8,000; OTC (year 1): USD 5,000.",
+        "Tuition years 2–5: USD 7,000 per year.",
+        "Approximate sum of tuition only for years 1–5 (at ₹86/USD): ₹ 30,96,000 — excludes add-ons in the yellow-box list unless your invoice states otherwise.",
+        "Hostel / living (years 2–5, indicative): approximately USD 150–200 per month (per fee sheet).",
+        "Additional one-time or administrative items (confirm current amounts): nomination USD 300; coordination USD 170; international student membership USD 150; university registration USD 1,500; ministry & documents USD 600; India MEA & apostille USD 300.",
+        "Other steps may apply (e.g. documents at Egypt embassy/ministry, notary & translation) — confirm with your counsellor.",
+        "INR figures use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
+    }
+  },
+  {
+    "id": "77",
+    "universityName": "Alexandria University, Alexandria",
+    "country": "Egypt",
+    "tuitionFeesRaw": "8000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 5000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Egypt fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5 tuition); confirm full programme structure with the university.",
+      "processingFeesInrDisplay": "Additional USD charges — see notes",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University registration support",
+        "Pre-departure checklist",
+        "Ongoing counsellor support"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 6,88,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 30,96,000",
+      "notes": [
+        "1st year fees (fee sheet, all-in figure shown): approx ₹ 10,92,000 — confirm exactly what this includes (tuition, OTC, etc.).",
+        "Year 1 tuition (for comparison): USD 8,000; OTC (year 1): USD 5,000.",
+        "Tuition years 2–5: USD 7,000 per year.",
+        "Approximate sum of tuition only for years 1–5 (at ₹86/USD): ₹ 30,96,000 — excludes add-ons in the yellow-box list unless your invoice states otherwise.",
+        "Hostel / living (years 2–5, indicative): approximately USD 150–200 per month (per fee sheet).",
+        "Additional one-time or administrative items (confirm current amounts): nomination USD 300; coordination USD 170; international student membership USD 150; university registration USD 1,500; ministry & documents USD 600; India MEA & apostille USD 300.",
+        "Other steps may apply (e.g. documents at Egypt embassy/ministry, notary & translation) — confirm with your counsellor.",
+        "INR figures use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
+    }
+  },
+  {
+    "id": "78",
+    "universityName": "Zagazig University",
+    "country": "Egypt",
+    "tuitionFeesRaw": "6000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 5000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Egypt fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5 tuition); confirm full programme structure with the university.",
+      "processingFeesInrDisplay": "Additional USD charges — see notes",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University registration support",
+        "Pre-departure checklist",
+        "Ongoing counsellor support"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 6,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 29,24,000",
+      "notes": [
+        "1st year fees (fee sheet, all-in figure shown): approx ₹ 9,24,000 — confirm exactly what this includes (tuition, OTC, etc.).",
+        "Year 1 tuition (for comparison): USD 6,000; OTC (year 1): USD 5,000.",
+        "Tuition years 2–5: USD 7,000 per year.",
+        "Approximate sum of tuition only for years 1–5 (at ₹86/USD): ₹ 29,24,000 — excludes add-ons in the yellow-box list unless your invoice states otherwise.",
+        "Hostel / living (years 2–5, indicative): approximately USD 150–200 per month (per fee sheet).",
+        "Additional one-time or administrative items (confirm current amounts): nomination USD 300; coordination USD 170; international student membership USD 150; university registration USD 1,500; ministry & documents USD 600; India MEA & apostille USD 300.",
+        "Other steps may apply (e.g. documents at Egypt embassy/ministry, notary & translation) — confirm with your counsellor.",
+        "INR figures use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
+    }
+  },
+  {
+    "id": "79",
+    "universityName": "Helwan University",
+    "country": "Egypt",
+    "tuitionFeesRaw": "6000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 5000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Egypt fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5 tuition); confirm full programme structure with the university.",
+      "processingFeesInrDisplay": "Additional USD charges — see notes",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University registration support",
+        "Pre-departure checklist",
+        "Ongoing counsellor support"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 6,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 7,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 6,02,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 29,24,000",
+      "notes": [
+        "1st year fees (fee sheet, all-in figure shown): approx ₹ 9,24,000 — confirm exactly what this includes (tuition, OTC, etc.).",
+        "Year 1 tuition (for comparison): USD 6,000; OTC (year 1): USD 5,000.",
+        "Tuition years 2–5: USD 7,000 per year.",
+        "Approximate sum of tuition only for years 1–5 (at ₹86/USD): ₹ 29,24,000 — excludes add-ons in the yellow-box list unless your invoice states otherwise.",
+        "Hostel / living (years 2–5, indicative): approximately USD 150–200 per month (per fee sheet).",
+        "Additional one-time or administrative items (confirm current amounts): nomination USD 300; coordination USD 170; international student membership USD 150; university registration USD 1,500; ministry & documents USD 600; India MEA & apostille USD 300.",
+        "Other steps may apply (e.g. documents at Egypt embassy/ministry, notary & translation) — confirm with your counsellor.",
+        "INR figures use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
+    }
+  },
+  {
+    "id": "80",
+    "universityName": "Ain Shams University, Cairo",
+    "country": "Egypt",
+    "tuitionFeesRaw": "8000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 5000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Egypt fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5 tuition); confirm full programme structure with the university.",
+      "processingFeesInrDisplay": "Additional USD charges — see notes",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University registration support",
+        "Pre-departure checklist",
+        "Ongoing counsellor support"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 6,88,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 6,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 6,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 6,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 6,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 5,16,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 27,52,000",
+      "notes": [
+        "1st year fees (fee sheet, all-in figure shown): approx ₹ 10,92,000 — confirm exactly what this includes (tuition, OTC, etc.).",
+        "Year 1 tuition (for comparison): USD 8,000; OTC (year 1): USD 5,000.",
+        "Tuition years 2–5: USD 6,000 per year.",
+        "Approximate sum of tuition only for years 1–5 (at ₹86/USD): ₹ 27,52,000 — excludes add-ons in the yellow-box list unless your invoice states otherwise.",
+        "Hostel / living (years 2–5, indicative): approximately USD 150–200 per month (per fee sheet).",
+        "Additional one-time or administrative items (confirm current amounts): nomination USD 300; coordination USD 170; international student membership USD 150; university registration USD 1,500; ministry & documents USD 600; India MEA & apostille USD 300.",
+        "Other steps may apply (e.g. documents at Egypt embassy/ministry, notary & translation) — confirm with your counsellor.",
+        "INR figures use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
+    }
+  },
+  {
+    "id": "81",
+    "universityName": "Mansoura University",
+    "country": "Egypt",
+    "tuitionFeesRaw": "8000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 5000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Egypt fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5 tuition); confirm full programme structure with the university.",
+      "processingFeesInrDisplay": "Additional USD charges — see notes",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University registration support",
+        "Pre-departure checklist",
+        "Ongoing counsellor support"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 6,88,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 6,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 6,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 6,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 6,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 5,16,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 27,52,000",
+      "notes": [
+        "1st year fees (fee sheet, all-in figure shown): approx ₹ 10,92,000 — confirm exactly what this includes (tuition, OTC, etc.).",
+        "Year 1 tuition (for comparison): USD 8,000; OTC (year 1): USD 5,000.",
+        "Tuition years 2–5: USD 6,000 per year.",
+        "Approximate sum of tuition only for years 1–5 (at ₹86/USD): ₹ 27,52,000 — excludes add-ons in the yellow-box list unless your invoice states otherwise.",
+        "Hostel / living (years 2–5, indicative): approximately USD 150–200 per month (per fee sheet).",
+        "Additional one-time or administrative items (confirm current amounts): nomination USD 300; coordination USD 170; international student membership USD 150; university registration USD 1,500; ministry & documents USD 600; India MEA & apostille USD 300.",
+        "Other steps may apply (e.g. documents at Egypt embassy/ministry, notary & translation) — confirm with your counsellor.",
+        "INR figures use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
+    }
+  },
+  {
+    "id": "82",
+    "universityName": "Nahda University",
+    "country": "Egypt",
+    "tuitionFeesRaw": "5000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 5000,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Egypt fee sheet (USD + INR as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5 tuition); confirm full programme structure with the university.",
+      "processingFeesInrDisplay": "Additional USD charges — see notes",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University registration support",
+        "Pre-departure checklist",
+        "Ongoing counsellor support"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 5,000 (year 1 tuition)",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 5,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 5,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 5,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 4,30,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 5,000 / yr (years 2–5)",
+          "feeInrDisplay": "₹ 4,30,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 21,50,000",
+      "notes": [
+        "1st year fees (fee sheet, all-in figure shown): approx ₹ 8,40,000 — confirm exactly what this includes (tuition, OTC, etc.).",
+        "Year 1 tuition (for comparison): USD 5,000; OTC (year 1): USD 5,000.",
+        "Tuition years 2–5: USD 5,000 per year.",
+        "Approximate sum of tuition only for years 1–5 (at ₹86/USD): ₹ 21,50,000 — excludes add-ons in the yellow-box list unless your invoice states otherwise.",
+        "Hostel / living (years 2–5, indicative): approximately USD 150–200 per month (per fee sheet).",
+        "Additional one-time or administrative items (confirm current amounts): nomination USD 300; coordination USD 170; international student membership USD 150; university registration USD 1,500; ministry & documents USD 600; India MEA & apostille USD 300.",
+        "Other steps may apply (e.g. documents at Egypt embassy/ministry, notary & translation) — confirm with your counsellor.",
+        "INR figures use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
+    }
+  },
+  {
+    "universityName": "Kazakh National Medical University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "5900 USD",
+    "hostelFeesRaw": "800 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1300 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 5,900 (year 1 tuition)",
+          "feeInrDisplay": "₹ 5,07,400"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 5,900 / yr",
+          "feeInrDisplay": "₹ 5,07,400"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 5,900 / yr",
+          "feeInrDisplay": "₹ 5,07,400"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 5,900 / yr",
+          "feeInrDisplay": "₹ 5,07,400"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 5,900 / yr",
+          "feeInrDisplay": "₹ 5,07,400"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 5,900 / yr",
+          "feeInrDisplay": "₹ 5,07,400"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 30,44,400",
+      "notes": [
+        "Year 1: tuition USD 5,900; hostel USD 800; OTC USD 2,000; medical insurance USD 100; mess USD 1,300.",
+        "Years 2–6: tuition USD 5,900 / yr; hostel USD 800 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "83"
+  },
+  {
+    "universityName": "Kazakh-Russian Medical University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "4500 USD",
+    "hostelFeesRaw": "1000 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1400 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 4,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 23,22,000",
+      "notes": [
+        "Year 1: tuition USD 4,500; hostel USD 1,000; OTC USD 2,000; medical insurance USD 100; mess USD 1,400.",
+        "Years 2–6: tuition USD 4,500 / yr; hostel USD 1,000 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "84"
+  },
+  {
+    "universityName": "South Kazakh State Medical University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "4400 USD",
+    "hostelFeesRaw": "800 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 4,400 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 22,70,400",
+      "notes": [
+        "Year 1: tuition USD 4,400; hostel USD 800; OTC USD 2,000; medical insurance USD 100; mess USD 1,200 (sheet blank — fee list notes USD 1,200/year mess).",
+        "Years 2–6: tuition USD 4,400 / yr; hostel USD 700 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice.",
+        "Year 1 hostel USD 800; years 2–6 hostel USD 700 (per fee sheet)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "85"
+  },
+  {
+    "universityName": "Al-Farabi Kazakh National University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "4400 USD",
+    "hostelFeesRaw": "1000 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1300 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 4,400 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,400 / yr",
+          "feeInrDisplay": "₹ 3,78,400"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 22,70,400",
+      "notes": [
+        "Year 1: tuition USD 4,400; hostel USD 1,000; OTC USD 2,000; medical insurance USD 100; mess USD 1,300.",
+        "Years 2–6: tuition USD 4,400 / yr; hostel USD 900 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice.",
+        "Year 1 hostel USD 1,000; years 2–6 hostel USD 900 (per fee sheet)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "86"
+  },
+  {
+    "universityName": "Caspian International School of Medicine (PTP - $1000)",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "4500 USD",
+    "hostelFeesRaw": "1000 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 4,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 23,22,000",
+      "notes": [
+        "Year 1: tuition USD 4,500; hostel USD 1,000; OTC USD 2,000; medical insurance USD 100; mess USD 1,200 (sheet blank — fee list notes USD 1,200/year mess).",
+        "Years 2–6: tuition USD 4,500 / yr; hostel USD 1,000 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice.",
+        "PTP USD 1,000 (per sheet title) — confirm what PTP covers with your counsellor."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "87"
+  },
+  {
+    "universityName": "Kokshetau State University (PTP - $1000)",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "3800 USD",
+    "hostelFeesRaw": "700 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,800 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,60,800",
+      "notes": [
+        "Year 1: tuition USD 3,800; hostel USD 700; OTC USD 2,000; medical insurance USD 100; mess USD 1,200 (sheet blank — fee list notes USD 1,200/year mess).",
+        "Years 2–6: tuition USD 3,800 / yr; hostel USD 700 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice.",
+        "PTP USD 1,000 (per sheet title) — confirm what PTP covers with your counsellor."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "88"
+  },
+  {
+    "universityName": "West Kazakhstan Marat Ospanov State Medical University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "4100 USD",
+    "hostelFeesRaw": "600 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 4,100 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,52,600"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,100 / yr",
+          "feeInrDisplay": "₹ 3,52,600"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,100 / yr",
+          "feeInrDisplay": "₹ 3,52,600"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,100 / yr",
+          "feeInrDisplay": "₹ 3,52,600"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,100 / yr",
+          "feeInrDisplay": "₹ 3,52,600"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,100 / yr",
+          "feeInrDisplay": "₹ 3,52,600"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 21,15,600",
+      "notes": [
+        "Year 1: tuition USD 4,100; hostel USD 600; OTC USD 2,000; medical insurance USD 100; mess USD 1,200.",
+        "Years 2–6: tuition USD 4,100 / yr; hostel USD 600 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "89"
+  },
+  {
+    "universityName": "North Kazakhstan State University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "4500 USD",
+    "hostelFeesRaw": "700 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 4,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 23,22,000",
+      "notes": [
+        "Year 1: tuition USD 4,500; hostel USD 700; OTC USD 2,000; medical insurance USD 100; mess USD 1,200 (sheet blank — fee list notes USD 1,200/year mess).",
+        "Years 2–6: tuition USD 4,500 / yr; hostel USD 700 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "90"
+  },
+  {
+    "universityName": "Astana Medical University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "5300 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 5,300 (year 1 tuition)",
+          "feeInrDisplay": "₹ 4,55,800"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 5,300 / yr",
+          "feeInrDisplay": "₹ 4,55,800"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 5,300 / yr",
+          "feeInrDisplay": "₹ 4,55,800"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 5,300 / yr",
+          "feeInrDisplay": "₹ 4,55,800"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 5,300 / yr",
+          "feeInrDisplay": "₹ 4,55,800"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 5,300 / yr",
+          "feeInrDisplay": "₹ 4,55,800"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 27,34,800",
+      "notes": [
+        "Year 1: tuition USD 5,300; hostel USD 500; OTC USD 2,000; medical insurance USD 100; mess USD 1,200 (sheet blank — fee list notes USD 1,200/year mess).",
+        "Years 2–6: tuition USD 5,300 / yr; hostel USD 500 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "91"
+  },
+  {
+    "universityName": "Semey State Medical University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "3800 USD",
+    "hostelFeesRaw": "800 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,800 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,60,800",
+      "notes": [
+        "Year 1: tuition USD 3,800; hostel USD 800; OTC USD 2,000; medical insurance USD 100; mess USD 1,200 (sheet blank — fee list notes USD 1,200/year mess).",
+        "Years 2–6: tuition USD 3,800 / yr; hostel USD 800 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "92"
+  },
+  {
+    "universityName": "Karaganda Medical University",
+    "country": "Kazakhstan",
+    "tuitionFeesRaw": "3800 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1200 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kazakhstan fee sheet (USD as provided).",
+      "courseDurationSummary": "6-year undergraduate medicine track (fee sheet lists year 1 and years 2–6); confirm internship rules with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission support",
+        "Visa documentation",
+        "Airport pickup (where applicable)",
+        "University coordination",
+        "Pre-departure briefing"
+      ],
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,800 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 6,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 19,60,800",
+      "notes": [
+        "Year 1: tuition USD 3,800; hostel USD 500; OTC USD 2,000; medical insurance USD 100; mess USD 1,200 (sheet blank — fee list notes USD 1,200/year mess).",
+        "Years 2–6: tuition USD 3,800 / yr; hostel USD 500 / yr.",
+        "INR amounts use an indicative rate of USD 1 ≈ ₹86; pay per university invoice."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "93"
+  },
+  {
+    "universityName": "Osh International University",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "6500 USD",
+    "hostelFeesRaw": "900 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 1000,
+    "messChargesRaw": "900 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 6,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 5,59,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 17,63,000",
+      "notes": [
+        "Year 1 add-ons (per sheet): MGE classes USD 1,000 — confirm schedule and inclusions.",
+        "Year 1: hostel USD 900; years 2–5 hostel USD 600 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "94"
+  },
+  {
+    "universityName": "Kyrgyz Russian Slavic University (Including Everything)",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "9500 USD",
+    "hostelFeesRaw": "900 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 800,
+    "messChargesRaw": "900 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 9,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 8,17,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,000 / yr",
+          "feeInrDisplay": "₹ 3,44,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,000 / yr",
+          "feeInrDisplay": "₹ 3,44,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,000 / yr",
+          "feeInrDisplay": "₹ 3,44,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,000 / yr",
+          "feeInrDisplay": "₹ 3,44,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 21,93,000",
+      "notes": [
+        "Name on sheet: “Including Everything” — confirm exactly which services are bundled in year 1.",
+        "Year 1: hostel USD 900; years 2–5 hostel USD 900 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "95"
+  },
+  {
+    "universityName": "Osh State University",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "8100 USD",
+    "hostelFeesRaw": "900 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "900 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,100 (year 1 tuition)",
+          "feeInrDisplay": "₹ 6,96,600"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,000 / yr",
+          "feeInrDisplay": "₹ 3,44,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,000 / yr",
+          "feeInrDisplay": "₹ 3,44,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,000 / yr",
+          "feeInrDisplay": "₹ 3,44,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,000 / yr",
+          "feeInrDisplay": "₹ 3,44,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 20,72,600",
+      "notes": [
+        "Year 1 OTC shown as USD 0 on the sheet.",
+        "Year 1: hostel USD 900; years 2–5 hostel USD 600 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "96"
+  },
+  {
+    "universityName": "Jalal-Abad International University",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "6900 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 6,900 (year 1 combined package)",
+          "feeInrDisplay": "₹ 5,93,400"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 17,97,400",
+      "notes": [
+        "Year 1 line on the sheet is a combined figure (tuition, hostel, OTC, mess) USD 6,900 — hostel/mess are not split on this row.",
+        "Year 1 add-ons: MGE classes USD 1,000.",
+        "Years 2–5: tuition USD 3,500 / yr; hostel USD 600 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "97"
+  },
+  {
+    "universityName": "Kyrgyz State Medical Academy (KSMA)",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "8500 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "1500 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,500 (year 1 combined: tuition + hostel + OTC)",
+          "feeInrDisplay": "₹ 7,31,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,200 / yr",
+          "feeInrDisplay": "₹ 3,61,200"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,200 / yr",
+          "feeInrDisplay": "₹ 3,61,200"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,200 / yr",
+          "feeInrDisplay": "₹ 3,61,200"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,200 / yr",
+          "feeInrDisplay": "₹ 3,61,200"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 21,75,800",
+      "notes": [
+        "Year 1: combined tuition + hostel + OTC USD 8,500; mess USD 1,500; MGE classes USD 1,500 (per sheet).",
+        "Years 2–5: tuition USD 4,200 / yr; hostel USD 600 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "98"
+  },
+  {
+    "universityName": "Kyrgyz National Medical University",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "9500 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 9,500 (year 1 combined package)",
+          "feeInrDisplay": "₹ 8,17,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,500 / yr",
+          "feeInrDisplay": "₹ 3,87,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 23,65,000",
+      "notes": [
+        "Year 1 line on the sheet is a combined figure (tuition, hostel, OTC, mess) USD 9,500.",
+        "Medical insurance cell was blank on the sheet — confirm with the university.",
+        "Years 2–5: tuition USD 4,500 / yr; hostel USD 800 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "99"
+  },
+  {
+    "universityName": "ISM (Easy Cool)",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "8200 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "1500 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,200 (year 1 combined: tuition + hostel + OTC)",
+          "feeInrDisplay": "₹ 7,05,200"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,800 / yr",
+          "feeInrDisplay": "₹ 3,26,800"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 20,12,400",
+      "notes": [
+        "Year 1: combined tuition + hostel + OTC USD 8,200; mess USD 1,500; MGE classes USD 1,500.",
+        "Years 2–5: tuition USD 3,800 / yr; hostel USD 650 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "100"
+  },
+  {
+    "universityName": "IHSM (Central Campus)",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "8000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "1600 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,000 (year 1 combined: tuition + hostel + OTC)",
+          "feeInrDisplay": "₹ 6,88,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 6,000 / yr",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 6,000 / yr",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 6,000 / yr",
+          "feeInrDisplay": "₹ 5,16,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 6,000 / yr",
+          "feeInrDisplay": "₹ 5,16,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 27,52,000",
+      "notes": [
+        "Year 1: combined tuition + hostel + OTC USD 8,000; mess USD 1,600; MGE classes USD 1,500.",
+        "Years 2–5: tuition USD 6,000 / yr; hostel USD 650 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "101"
+  },
+  {
+    "universityName": "Asian Medical Institute",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "3500 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "2000 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,500 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,500 / yr",
+          "feeInrDisplay": "₹ 3,01,000"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 15,05,000",
+      "notes": [
+        "Year 1 OTC shown as USD 0 on the sheet.",
+        "Year 1: hostel USD 500; years 2–5 hostel USD 450 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "102"
+  },
+  {
+    "universityName": "Jalal-Abad State University",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "8000 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 0,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "NA",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 8,000 (year 1 combined package)",
+          "feeInrDisplay": "₹ 6,88,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 4,200 / yr",
+          "feeInrDisplay": "₹ 3,61,200"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 4,200 / yr",
+          "feeInrDisplay": "₹ 3,61,200"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 4,200 / yr",
+          "feeInrDisplay": "₹ 3,61,200"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 4,200 / yr",
+          "feeInrDisplay": "₹ 3,61,200"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 21,32,800",
+      "notes": [
+        "Year 1 line on the sheet is a combined figure (tuition, hostel, OTC, mess) USD 8,000.",
+        "Medical insurance cell was blank on the sheet — confirm with the university.",
+        "Years 2–5: tuition USD 4,200 / yr; hostel USD 600 / yr.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "103"
+  },
+  {
+    "universityName": "International Medical University",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "3980 USD",
+    "hostelFeesRaw": "500 USD",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 2000,
+    "messChargesRaw": "1500 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 3,980 (year 1 tuition)",
+          "feeInrDisplay": "₹ 3,42,280"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 3,980 / yr",
+          "feeInrDisplay": "₹ 3,42,280"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 3,980 / yr",
+          "feeInrDisplay": "₹ 3,42,280"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 3,980 / yr",
+          "feeInrDisplay": "₹ 3,42,280"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 3,980 / yr",
+          "feeInrDisplay": "₹ 3,42,280"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 17,11,400",
+      "notes": [
+        "Year 1: OTC USD 2,000 (per sheet).",
+        "Hostel USD 500 / yr for years 1–5 on the sheet.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "104"
+  },
+  {
+    "universityName": "Central Asian International Medical University (CAIMU)",
+    "country": "Kyrgyzstan",
+    "tuitionFeesRaw": "6500 USD",
+    "hostelFeesRaw": "NA",
+    "medicalBundleRub": 9200,
+    "otcChargesUsd": 0,
+    "messChargesRaw": "1500 USD",
+    "serviceChargesRub": 0,
+    "brochureExtension": {
+      "brochureTagline": "Kyrgyzstan fee sheet (USD as provided).",
+      "courseDurationSummary": "Undergraduate medicine pathway (sheet lists year 1 and years 2–5); confirm programme length with the university.",
+      "processingFeesInrDisplay": "—",
+      "inclusionItems": [
+        "Admission coordination",
+        "Visa & documentation guidance",
+        "University liaison",
+        "Arrival checklist",
+        "Counsellor support"
+      ],
+      "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
+      "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)",
+      "tuitionYearRows": [
+        {
+          "yearNumber": 1,
+          "feeRubDisplay": "USD 6,500 (year 1 combined: tuition + hostel + OTC)",
+          "feeInrDisplay": "₹ 5,59,000"
+        },
+        {
+          "yearNumber": 2,
+          "feeRubDisplay": "USD 5,250 / yr (combined tuition + hostel)",
+          "feeInrDisplay": "₹ 4,51,500"
+        },
+        {
+          "yearNumber": 3,
+          "feeRubDisplay": "USD 5,250 / yr (combined tuition + hostel)",
+          "feeInrDisplay": "₹ 4,51,500"
+        },
+        {
+          "yearNumber": 4,
+          "feeRubDisplay": "USD 5,250 / yr (combined tuition + hostel)",
+          "feeInrDisplay": "₹ 4,51,500"
+        },
+        {
+          "yearNumber": 5,
+          "feeRubDisplay": "USD 5,250 / yr (combined tuition + hostel)",
+          "feeInrDisplay": "₹ 4,51,500"
+        }
+      ],
+      "totalTuitionSixYearsInrDisplay": "₹ 23,65,000",
+      "notes": [
+        "Year 1: combined tuition + hostel + OTC USD 6,500; mess USD 1,500 (per sheet).",
+        "Years 2–5: combined tuition + hostel USD 5,250 / yr (per sheet) — confirm split with the university.",
+        "INR uses USD 1 ≈ ₹86 (indicative)."
+      ],
+      "contactPhoneNumbers": [
+        "9595718686",
+        "7058362626"
+      ]
+    },
+    "id": "105"
   }
 ]

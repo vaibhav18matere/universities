@@ -10,6 +10,7 @@ import {
   formatRubAmountInInr,
   formatUsdAmountInInr,
 } from "@/lib/inr-display";
+import { resolveCollegeCountryLabel } from "@/lib/college-country-label";
 
 type CollegeDetailPageProps = {
   readonly params: Promise<{ slug: string }>;
@@ -85,9 +86,14 @@ export default async function CollegeDetailPage(props: CollegeDetailPageProps) {
       </nav>
 
       <header className="space-y-4">
-        <p className="inline-flex w-fit rounded-full border border-indigo-200/80 bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700 dark:border-indigo-500/30 dark:bg-indigo-950/50 dark:text-indigo-200">
-          Full fee schedule
-        </p>
+        <div className="flex flex-wrap items-center gap-2">
+          <p className="inline-flex w-fit rounded-full border border-indigo-200/80 bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700 dark:border-indigo-500/30 dark:bg-indigo-950/50 dark:text-indigo-200">
+            {resolveCollegeCountryLabel(college.country)}
+          </p>
+          <p className="inline-flex w-fit rounded-full border border-slate-200/80 bg-surface-muted px-3 py-1 text-xs font-semibold text-slate-600 dark:border-slate-600 dark:bg-slate-800/80 dark:text-slate-300">
+            Full fee schedule
+          </p>
+        </div>
         <h1 className="text-balance text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl lg:text-4xl dark:text-slate-50">
           {college.universityName}
         </h1>
@@ -99,6 +105,49 @@ export default async function CollegeDetailPage(props: CollegeDetailPageProps) {
 
       {college.brochureExtension !== undefined ? (
         <UniversityBrochureSection extension={college.brochureExtension} />
+      ) : null}
+
+      {college.webometricsRanking !== undefined ? (
+        <section
+          aria-label="Webometrics ranking snapshot"
+          className="rounded-2xl border border-slate-200/90 bg-surface/90 p-4 shadow-sm ring-1 ring-slate-900/5 dark:border-slate-800 dark:bg-slate-900/80 dark:ring-white/5 sm:p-5"
+        >
+          <h2 className="text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+            Webometrics (rank — lower is better)
+          </h2>
+          <dl className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
+            <div className="flex justify-between gap-3 rounded-xl bg-surface-muted/80 px-3 py-2 dark:bg-slate-800/60">
+              <dt className="text-slate-500 dark:text-slate-400">In country</dt>
+              <dd className="font-semibold text-slate-900 dark:text-slate-100">
+                {college.webometricsRanking.countryRank}
+              </dd>
+            </div>
+            <div className="flex justify-between gap-3 rounded-xl bg-surface-muted/80 px-3 py-2 dark:bg-slate-800/60">
+              <dt className="text-slate-500 dark:text-slate-400">World</dt>
+              <dd className="font-semibold text-slate-900 dark:text-slate-100">
+                {college.webometricsRanking.worldRank}
+              </dd>
+            </div>
+            <div className="flex justify-between gap-3 rounded-xl bg-surface-muted/80 px-3 py-2 dark:bg-slate-800/60">
+              <dt className="text-slate-500 dark:text-slate-400">Impact</dt>
+              <dd className="font-semibold text-slate-900 dark:text-slate-100">
+                {college.webometricsRanking.impactRank}
+              </dd>
+            </div>
+            <div className="flex justify-between gap-3 rounded-xl bg-surface-muted/80 px-3 py-2 dark:bg-slate-800/60">
+              <dt className="text-slate-500 dark:text-slate-400">Openness</dt>
+              <dd className="font-semibold text-slate-900 dark:text-slate-100">
+                {college.webometricsRanking.opennessRank}
+              </dd>
+            </div>
+            <div className="flex justify-between gap-3 rounded-xl bg-surface-muted/80 px-3 py-2 sm:col-span-2 dark:bg-slate-800/60">
+              <dt className="text-slate-500 dark:text-slate-400">Excellence</dt>
+              <dd className="font-semibold text-slate-900 dark:text-slate-100">
+                {college.webometricsRanking.excellenceRank}
+              </dd>
+            </div>
+          </dl>
+        </section>
       ) : null}
 
       <h2 className="mt-10 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">

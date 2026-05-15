@@ -76,7 +76,7 @@ export function UniversityBrochureSection(props: UniversityBrochureSectionProps)
 
       <div className="mt-8">
         <h3 className="text-xs font-bold uppercase tracking-wide text-amber-800 dark:text-amber-300">
-          Tuition by year (6 years)
+          {extension.tuitionYearsSectionTitle ?? "Tuition by year (6 years)"}
         </h3>
         <p className="mt-1 text-xs text-slate-600 dark:text-slate-400">
           Per-year amounts from the brochure. Tuition only — hostel and food
@@ -139,7 +139,7 @@ export function UniversityBrochureSection(props: UniversityBrochureSectionProps)
 
       <div className="mt-8 rounded-2xl border border-amber-300/80 bg-amber-100/60 px-4 py-5 text-center dark:border-amber-700/60 dark:bg-amber-950/40">
         <p className="text-xs font-bold uppercase tracking-wide text-amber-900 dark:text-amber-200">
-          Total tuition (6 years, INR)
+          {extension.totalTuitionBannerTitle ?? "Total tuition (6 years, INR)"}
         </p>
         <p className="mt-2 text-2xl font-bold tracking-tight text-amber-950 dark:text-amber-50 sm:text-3xl">
           {extension.totalTuitionSixYearsInrDisplay}

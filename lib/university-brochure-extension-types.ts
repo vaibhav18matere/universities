@@ -8,6 +8,10 @@ export type BrochureTuitionYearRow = {
 export type UniversityBrochureExtension = {
   /** Optional line under the brochure intro (e.g. mess compulsory). */
   readonly brochureTagline?: string;
+  /** Overrides default "Tuition by year (6 years)" when programme length differs. */
+  readonly tuitionYearsSectionTitle?: string;
+  /** Overrides default "Total tuition (6 years, INR)" banner label. */
+  readonly totalTuitionBannerTitle?: string;
   readonly courseDurationSummary: string;
   readonly processingFeesInrDisplay: string;
   readonly inclusionItems: ReadonlyArray<string>;
