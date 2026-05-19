@@ -66,7 +66,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "2",
@@ -135,7 +136,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "3",
@@ -145,7 +147,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1200",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "4",
@@ -214,7 +217,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "5",
@@ -283,7 +287,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "6",
@@ -293,7 +298,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "7",
@@ -362,7 +368,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "8",
@@ -431,7 +438,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "9",
@@ -441,7 +449,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "10",
@@ -451,7 +460,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1400",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "11",
@@ -461,7 +471,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1500",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "12",
@@ -471,7 +482,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1350",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "13",
@@ -481,7 +493,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "14",
@@ -550,7 +563,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "15",
@@ -560,7 +574,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "16",
@@ -570,7 +585,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1100",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "17",
@@ -639,7 +655,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "18",
@@ -649,7 +666,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1300",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "19",
@@ -718,7 +736,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "20",
@@ -787,7 +806,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "21",
@@ -856,7 +876,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "22",
@@ -925,7 +946,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "23",
@@ -935,7 +957,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1500",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "24",
@@ -1004,7 +1027,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "25",
@@ -1073,7 +1097,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "26",
@@ -1083,7 +1108,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1200",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "27",
@@ -1093,7 +1119,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "1300",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "28",
@@ -1163,7 +1190,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "29",
@@ -1232,7 +1260,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "30",
@@ -1242,7 +1271,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "31",
@@ -1311,7 +1341,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "32",
@@ -1321,7 +1352,8 @@
     "medicalBundleRub": 40000,
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 175000
+    "serviceChargesRub": 175000,
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "33",
@@ -1390,7 +1422,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "34",
@@ -1459,7 +1492,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "35",
@@ -1528,7 +1562,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "36",
@@ -1597,7 +1632,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "37",
@@ -1666,7 +1702,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "38",
@@ -1735,7 +1772,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "39",
@@ -1804,7 +1842,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "40",
@@ -1873,7 +1912,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "41",
@@ -1942,7 +1982,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "42",
@@ -2011,7 +2052,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "43",
@@ -2080,7 +2122,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "44",
@@ -2149,7 +2192,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "45",
@@ -2167,7 +2211,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "46",
@@ -2185,7 +2230,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "47",
@@ -2203,7 +2249,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "48",
@@ -2221,7 +2268,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "49",
@@ -2239,7 +2287,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "50",
@@ -2257,7 +2306,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "51",
@@ -2275,7 +2325,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "52",
@@ -2293,7 +2344,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "53",
@@ -2311,7 +2363,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "54",
@@ -2329,7 +2382,8 @@
     "medicalBundleRub": 0,
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
-    "serviceChargesRub": 0
+    "serviceChargesRub": 0,
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "55",
@@ -2397,7 +2451,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "56",
@@ -2465,7 +2520,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "57",
@@ -2533,7 +2589,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "58",
@@ -2601,7 +2658,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "59",
@@ -2669,7 +2727,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "60",
@@ -2737,7 +2796,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "61",
@@ -2805,7 +2865,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "62",
@@ -2873,7 +2934,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "63",
@@ -2941,7 +3003,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "64",
@@ -3009,7 +3072,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "65",
@@ -3077,7 +3141,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "66",
@@ -3145,7 +3210,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "67",
@@ -3213,7 +3279,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "68",
@@ -3281,7 +3348,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "69",
@@ -3349,7 +3417,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "70",
@@ -3417,7 +3486,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "71",
@@ -3485,7 +3555,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "72",
@@ -3553,7 +3624,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "73",
@@ -3621,7 +3693,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "74",
@@ -3689,7 +3762,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "75",
@@ -3757,7 +3831,8 @@
         "9595718686",
         "7058362626"
       ]
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "76",
@@ -3824,7 +3899,8 @@
       ],
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "77",
@@ -3891,7 +3967,8 @@
       ],
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "78",
@@ -3958,7 +4035,8 @@
       ],
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "79",
@@ -4025,7 +4103,8 @@
       ],
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "80",
@@ -4092,7 +4171,8 @@
       ],
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "81",
@@ -4159,7 +4239,8 @@
       ],
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "id": "82",
@@ -4226,7 +4307,8 @@
       ],
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
-    }
+    },
+    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Kazakh National Medical University",
@@ -4291,7 +4373,8 @@
         "7058362626"
       ]
     },
-    "id": "83"
+    "id": "83",
+    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Kazakh-Russian Medical University",
@@ -4356,7 +4439,8 @@
         "7058362626"
       ]
     },
-    "id": "84"
+    "id": "84",
+    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "South Kazakh State Medical University",
@@ -4422,7 +4506,8 @@
         "7058362626"
       ]
     },
-    "id": "85"
+    "id": "85",
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Al-Farabi Kazakh National University",
@@ -4488,7 +4573,8 @@
         "7058362626"
       ]
     },
-    "id": "86"
+    "id": "86",
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Caspian International School of Medicine (PTP - $1000)",
@@ -4554,7 +4640,8 @@
         "7058362626"
       ]
     },
-    "id": "87"
+    "id": "87",
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Kokshetau State University (PTP - $1000)",
@@ -4620,7 +4707,8 @@
         "7058362626"
       ]
     },
-    "id": "88"
+    "id": "88",
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "West Kazakhstan Marat Ospanov State Medical University",
@@ -4685,7 +4773,8 @@
         "7058362626"
       ]
     },
-    "id": "89"
+    "id": "89",
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "North Kazakhstan State University",
@@ -4750,7 +4839,8 @@
         "7058362626"
       ]
     },
-    "id": "90"
+    "id": "90",
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Astana Medical University",
@@ -4815,7 +4905,8 @@
         "7058362626"
       ]
     },
-    "id": "91"
+    "id": "91",
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Semey State Medical University",
@@ -4880,7 +4971,8 @@
         "7058362626"
       ]
     },
-    "id": "92"
+    "id": "92",
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Karaganda Medical University",
@@ -4945,7 +5037,8 @@
         "7058362626"
       ]
     },
-    "id": "93"
+    "id": "93",
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Osh International University",
@@ -5007,7 +5100,8 @@
         "7058362626"
       ]
     },
-    "id": "94"
+    "id": "94",
+    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Kyrgyz Russian Slavic University (Including Everything)",
@@ -5069,7 +5163,8 @@
         "7058362626"
       ]
     },
-    "id": "95"
+    "id": "95",
+    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Osh State University",
@@ -5131,7 +5226,8 @@
         "7058362626"
       ]
     },
-    "id": "96"
+    "id": "96",
+    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Jalal-Abad International University",
@@ -5194,7 +5290,8 @@
         "7058362626"
       ]
     },
-    "id": "97"
+    "id": "97",
+    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Kyrgyz State Medical Academy (KSMA)",
@@ -5256,7 +5353,8 @@
         "7058362626"
       ]
     },
-    "id": "98"
+    "id": "98",
+    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Kyrgyz National Medical University",
@@ -5319,7 +5417,8 @@
         "7058362626"
       ]
     },
-    "id": "99"
+    "id": "99",
+    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "ISM (Easy Cool)",
@@ -5381,7 +5480,8 @@
         "7058362626"
       ]
     },
-    "id": "100"
+    "id": "100",
+    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "IHSM (Central Campus)",
@@ -5443,7 +5543,8 @@
         "7058362626"
       ]
     },
-    "id": "101"
+    "id": "101",
+    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Asian Medical Institute",
@@ -5505,7 +5606,8 @@
         "7058362626"
       ]
     },
-    "id": "102"
+    "id": "102",
+    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Jalal-Abad State University",
@@ -5568,7 +5670,8 @@
         "7058362626"
       ]
     },
-    "id": "103"
+    "id": "103",
+    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "International Medical University",
@@ -5630,7 +5733,8 @@
         "7058362626"
       ]
     },
-    "id": "104"
+    "id": "104",
+    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "universityName": "Central Asian International Medical University (CAIMU)",
@@ -5692,6 +5796,7 @@
         "7058362626"
       ]
     },
-    "id": "105"
+    "id": "105",
+    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
   }
 ]

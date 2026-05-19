@@ -1,11 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist_Mono, Inter } from "next/font/google";
 import { SiteFooter } from "@/app/components/SiteFooter";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -37,18 +37,17 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col font-sans text-foreground">
+      <body className="flex min-h-dvh min-w-0 flex-col overflow-x-clip font-sans text-foreground">
         <div
           className="pointer-events-none fixed inset-0 -z-10 overflow-hidden"
           aria-hidden
         >
-          <div className="absolute -left-1/4 top-0 h-[min(70vh,520px)] w-[150%] rounded-full bg-linear-to-br from-indigo-200/40 via-transparent to-transparent blur-3xl dark:from-indigo-950/50 sm:left-0 sm:w-full" />
-          <div className="absolute bottom-0 right-0 h-[min(50vh,400px)] w-[min(100vw,480px)] rounded-full bg-linear-to-tl from-violet-200/30 via-transparent to-transparent blur-3xl dark:from-violet-950/40" />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,#ffffff_0%,#f3f4f6_55%,#eef2f7_100%)] dark:bg-[linear-gradient(180deg,#0b1220_0%,#020617_100%)]" />
         </div>
         <SiteHeader />
-        <main className="flex w-full flex-1 flex-col pb-[max(1.5rem,env(safe-area-inset-bottom,0px))]">
+        <main className="flex min-w-0 w-full flex-1 flex-col pb-[max(1.5rem,env(safe-area-inset-bottom,0px))]">
           {children}
         </main>
         <SiteFooter />

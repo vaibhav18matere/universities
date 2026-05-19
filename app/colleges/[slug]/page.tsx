@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { CollegeCoverImage } from "@/app/components/CollegeCoverImage";
 import { UniversityBrochureSection } from "@/app/components/UniversityBrochureSection";
 import { getCollegeBySlug, getCollegeSlugList } from "@/lib/colleges-catalog";
 import {
@@ -66,7 +67,7 @@ export default async function CollegeDetailPage(props: CollegeDetailPageProps) {
   }
 
   return (
-    <div className="mx-auto flex w-full max-w-3xl flex-col gap-8 px-4 py-8 sm:gap-10 sm:px-6 sm:py-10 lg:px-8">
+    <div className="mx-auto flex w-full min-w-0 max-w-3xl flex-col gap-8 px-4 py-8 sm:gap-10 sm:px-6 sm:py-10 lg:px-8">
       <nav
         className="flex flex-wrap items-center gap-2 text-sm"
         aria-label="Breadcrumb"
@@ -84,6 +85,16 @@ export default async function CollegeDetailPage(props: CollegeDetailPageProps) {
           {college.universityName}
         </span>
       </nav>
+
+      <div className="overflow-hidden rounded-3xl shadow-lg shadow-slate-900/10 ring-1 ring-slate-900/10 dark:shadow-black/40 dark:ring-white/10">
+        <CollegeCoverImage
+          src={college.imageSrc}
+          alt={`Campus cover — ${college.universityName}`}
+          sizes="(max-width: 768px) 100vw, 672px"
+          priority={true}
+          aspectClassName="aspect-[2/1]"
+        />
+      </div>
 
       <header className="space-y-4">
         <div className="flex flex-wrap items-center gap-2">

@@ -1,13 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
+  --background: #f3f4f6;
+  --foreground: #111827;
   --surface: #ffffff;
-  --surface-muted: #f1f5f9;
-  --accent: #4f46e5;
+  --surface-muted: #f3f4f6;
+  --accent: #c1272d;
   --accent-foreground: #ffffff;
-  --ring: #6366f1;
+  --ring: #c1272d;
+  --brand-navy: #002147;
+  --brand-ink: #1a1a1a;
+  --whatsapp: #25d366;
+  --utility-bar: #1a1a1a;
 }
 
 @theme inline {
@@ -18,24 +22,32 @@
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
   --color-ring: var(--ring);
-  --font-sans: var(--font-geist-sans);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-ink: var(--brand-ink);
+  --color-whatsapp: var(--whatsapp);
+  --color-utility-bar: var(--utility-bar);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #020617;
+    --background: #0b1220;
     --foreground: #f1f5f9;
-    --surface: #0f172a;
-    --surface-muted: #1e293b;
-    --accent: #818cf8;
-    --accent-foreground: #020617;
-    --ring: #a5b4fc;
+    --surface: #111827;
+    --surface-muted: #1f2937;
+    --accent: #e11d48;
+    --accent-foreground: #ffffff;
+    --ring: #fb7185;
+    --brand-navy: #0c1a33;
+    --brand-ink: #e5e7eb;
+    --utility-bar: #020617;
   }
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -45,9 +57,12 @@ html {
 }
 
 body {
+  min-height: 100dvh;
+  min-width: 0;
+  overflow-x: clip;
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -55,4 +70,32 @@ body {
 ::selection {
   background: color-mix(in oklab, var(--accent) 35%, transparent);
   color: var(--foreground);
+}
+
+@keyframes mobile-drawer-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes mobile-backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mobile-nav-backdrop {
+    animation: mobile-backdrop-in 0.22s ease-out;
+  }
+
+  .mobile-nav-panel {
+    animation: mobile-drawer-in 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  }
 }

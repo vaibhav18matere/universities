@@ -2,12 +2,9 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { CollegeCoverImage } from "@/app/components/CollegeCoverImage";
 import type { College, CollegeFilterState } from "@/lib/college-types";
-import {
-  getHostelRubFilterOptions,
-  getTuitionRubFilterOptions,
-} from "@/lib/college-filter-options";
-import { computeListingFeeExtents } from "@/lib/college-fee-stats";
+import { getTuitionRubFilterOptions } from "@/lib/college-filter-options";
 import { getCountryFilterLabels } from "@/lib/college-country-filter-options";
 import { filterColleges } from "@/lib/filter-colleges";
 import {
@@ -20,6 +17,9 @@ import { resolveCollegeCountryLabel } from "@/lib/college-country-label";
 
 type CollegeDirectoryProps = {
   readonly colleges: ReadonlyArray<College>;
+  readonly showDirectoryHeader: boolean;
+  /** When set, results stay scoped to this country label and the country control is hidden. */
+  readonly fixedCountryLabel: string | null;
 };
 
 const MAX_COMPARE_SELECTION = 3;
@@ -51,19 +51,19 @@ const labelClassName =
   "text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400";
 
 const primaryButtonClassName =
-  "inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl bg-accent px-4 py-3 text-sm font-semibold text-accent-foreground shadow-md shadow-indigo-500/20 transition hover:brightness-110 active:scale-[0.98] dark:shadow-indigo-900/40";
+  "inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl bg-accent px-4 py-3 text-sm font-semibold text-accent-foreground shadow-md shadow-accent/25 transition hover:brightness-110 active:scale-[0.98] dark:shadow-black/50";
 
 const ghostButtonClassName =
   "inline-flex min-h-12 shrink-0 items-center justify-center rounded-2xl border border-slate-200 bg-surface px-4 py-3 text-sm font-semibold text-slate-700 transition hover:bg-surface-muted active:scale-[0.98] dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800";
 
-function createInitialCollegeFilterState(): CollegeFilterState {
+function createCollegeFilterState(
+  initialSelectedCountry: string | null,
+): CollegeFilterState {
   return {
     searchQuery: "",
-    selectedCountry: null,
+    selectedCountry: initialSelectedCountry,
     tuitionMinRub: null,
     tuitionMaxRub: null,
-    hostelMinRub: null,
-    hostelMaxRub: null,
   };
 }
 
@@ -122,26 +122,16 @@ function RubFilterSelect(props: RubSelectProps) {
 }
 
 export function CollegeDirectory(props: CollegeDirectoryProps) {
-  const { colleges } = props;
-  const [filters, setFilters] = useState<CollegeFilterState>(
-    createInitialCollegeFilterState,
+  const { colleges, showDirectoryHeader, fixedCountryLabel } = props;
+  const [filters, setFilters] = useState<CollegeFilterState>(() =>
+    createCollegeFilterState(fixedCountryLabel),
   );
   const [compareSlugs, setCompareSlugs] = useState<ReadonlyArray<string>>(
     () => [],
   );
 
-  const feeExtents = useMemo(
-    () => computeListingFeeExtents(colleges),
-    [colleges],
-  );
-
   const tuitionRubOptions = useMemo(
     () => getTuitionRubFilterOptions(colleges),
-    [colleges],
-  );
-
-  const hostelRubOptions = useMemo(
-    () => getHostelRubFilterOptions(colleges),
     [colleges],
   );
 
@@ -171,19 +161,17 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
 
   return (
     <div
-      className={`mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 py-8 sm:gap-10 sm:px-6 sm:py-10 lg:gap-12 lg:px-8 ${compareSlugs.length > 0 ? "pb-28 sm:pb-24" : ""}`}
+      className={`mx-auto flex min-w-0 w-full max-w-7xl flex-col gap-8 px-4 py-8 sm:gap-10 sm:px-6 sm:py-10 lg:gap-12 lg:px-8 ${compareSlugs.length > 0 ? "pb-[max(7rem,env(safe-area-inset-bottom,0px)+5.5rem)] sm:pb-28" : ""}`}
     >
-      <header className="space-y-4">
-        <div className="space-y-3">
-          <h1 className="text-balance text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl dark:text-slate-50">
-            Find your university
-          </h1>
-          {/* <p className="max-w-2xl text-pretty text-base leading-relaxed text-slate-600 sm:text-lg dark:text-slate-400">
-            Search by name and narrow by tuition and hostel. Dropdowns list
-            amounts in Rubles.
-          </p> */}
-        </div>
-      </header>
+      {showDirectoryHeader ? (
+        <header className="space-y-4">
+          <div className="space-y-3">
+            <h1 className="text-balance text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl md:text-4xl lg:text-5xl dark:text-slate-50">
+              Find your university
+            </h1>
+          </div>
+        </header>
+      ) : null}
 
       <section
         aria-label="Search and filters"
@@ -222,30 +210,39 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
             />
           </div>
 
-          <div className="flex flex-col gap-2 lg:col-span-2">
-            <label className={labelClassName} htmlFor="country-filter">
-              Country
-            </label>
-            <select
-              id="country-filter"
-              value={filters.selectedCountry ?? ""}
-              onChange={(event) => {
-                const raw = event.target.value;
-                setFilters((previous) => ({
-                  ...previous,
-                  selectedCountry: raw.length === 0 ? null : raw,
-                }));
-              }}
-              className={controlClassName}
-            >
-              <option value="">All countries</option>
-              {countryOptions.map((countryLabel) => (
-                <option key={countryLabel} value={countryLabel}>
-                  {countryLabel}
-                </option>
-              ))}
-            </select>
-          </div>
+          {fixedCountryLabel === null ? (
+            <div className="flex flex-col gap-2 lg:col-span-2">
+              <label className={labelClassName} htmlFor="country-filter">
+                Country
+              </label>
+              <select
+                id="country-filter"
+                value={filters.selectedCountry ?? ""}
+                onChange={(event) => {
+                  const raw = event.target.value;
+                  setFilters((previous) => ({
+                    ...previous,
+                    selectedCountry: raw.length === 0 ? null : raw,
+                  }));
+                }}
+                className={controlClassName}
+              >
+                <option value="">All countries</option>
+                {countryOptions.map((countryLabel) => (
+                  <option key={countryLabel} value={countryLabel}>
+                    {countryLabel}
+                  </option>
+                ))}
+              </select>
+            </div>
+          ) : (
+            <div className="flex flex-col gap-2 lg:col-span-2">
+              <p className={labelClassName}>Country</p>
+              <p className="min-h-12 rounded-2xl border border-slate-200 bg-surface-muted/80 px-4 py-3 text-base font-semibold text-slate-900 dark:border-slate-700 dark:bg-slate-800/60 dark:text-slate-100 sm:min-h-11 sm:text-sm">
+                {fixedCountryLabel}
+              </p>
+            </div>
+          )}
 
           <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
             <RubFilterSelect
@@ -275,35 +272,6 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
               }}
             />
           </div>
-
-          <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
-            <RubFilterSelect
-              id="hostel-min-rub"
-              label="Hostel — minimum (INR, approx.)"
-              optionsRub={hostelRubOptions}
-              selectedRub={filters.hostelMinRub}
-              anyLabel="Any — no lower limit"
-              onSelectedRubChange={(value) => {
-                setFilters((previous) => ({
-                  ...previous,
-                  hostelMinRub: value,
-                }));
-              }}
-            />
-            <RubFilterSelect
-              id="hostel-max-rub"
-              label="Hostel — maximum (INR, approx.)"
-              optionsRub={hostelRubOptions}
-              selectedRub={filters.hostelMaxRub}
-              anyLabel="Any — no upper limit"
-              onSelectedRubChange={(value) => {
-                setFilters((previous) => ({
-                  ...previous,
-                  hostelMaxRub: value,
-                }));
-              }}
-            />
-          </div>
         </div>
 
         <div className="mt-8 flex flex-col gap-4 border-t border-slate-100 pt-6 dark:border-slate-800/80 sm:flex-row sm:items-center sm:justify-between">
@@ -320,7 +288,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
           <button
             type="button"
             onClick={() => {
-              setFilters(createInitialCollegeFilterState());
+              setFilters(createCollegeFilterState(fixedCountryLabel));
             }}
             className={ghostButtonClassName}
           >
@@ -348,13 +316,19 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
               compareSlugs.length >= MAX_COMPARE_SELECTION;
             return (
             <li key={college.id} className="flex min-h-0">
-              <article className="flex w-full flex-col overflow-hidden rounded-3xl border border-slate-200/90 bg-surface shadow-md shadow-slate-900/5 ring-1 ring-slate-900/5 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-indigo-500/10 dark:border-slate-800 dark:bg-slate-900 dark:shadow-black/30 dark:ring-white/10 dark:hover:shadow-indigo-500/5">
-                <div className="h-1.5 w-full" />
+              <article className="group flex w-full flex-col overflow-hidden rounded-3xl border border-slate-200/90 bg-surface shadow-md shadow-slate-900/5 ring-1 ring-slate-900/5 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/10 dark:border-slate-800 dark:bg-slate-900 dark:shadow-black/30 dark:ring-white/10 dark:hover:shadow-accent/10">
+                <CollegeCoverImage
+                  src={college.imageSrc}
+                  alt={`Campus photo — ${college.universityName}`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                  priority={false}
+                  aspectClassName="aspect-[5/3] sm:aspect-[16/10]"
+                />
                 <div className="flex flex-1 flex-col gap-4 p-5 sm:p-6">
                   <h3 className="text-balance text-lg font-bold leading-snug text-slate-900 dark:text-slate-50">
                     {college.universityName}
                   </h3>
-                  <p className="text-xs font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-300">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-accent dark:text-rose-300">
                     {resolveCollegeCountryLabel(college.country)}
                   </p>
                   <dl className="grid flex-1 gap-3 text-sm">
@@ -397,7 +371,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
                       }}
                       className={
                         isCompareSelected
-                          ? `${ghostButtonClassName} border-indigo-300 bg-indigo-50 text-indigo-900 dark:border-indigo-600 dark:bg-indigo-950/60 dark:text-indigo-100 cursor-pointer`
+                          ? `${ghostButtonClassName} border-rose-200 bg-rose-50 text-rose-900 dark:border-rose-800 dark:bg-rose-950/50 dark:text-rose-100 cursor-pointer`
                           : `${ghostButtonClassName} ${isCompareDisabled ? "cursor-not-allowed opacity-50" : "cursor-pointer"}`
                       }
                       aria-pressed={isCompareSelected}
@@ -438,7 +412,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
             <button
               type="button"
               onClick={() => {
-                setFilters(createInitialCollegeFilterState());
+                setFilters(createCollegeFilterState(fixedCountryLabel));
               }}
               className={`${ghostButtonClassName} mx-auto mt-6 w-full max-w-xs border-slate-300`}
             >
@@ -450,7 +424,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
 
       {compareSlugs.length > 0 ? (
         <div
-          className="fixed inset-x-0 bottom-0 z-40 border-t border-slate-200/90 bg-background/95 px-4 py-4 shadow-[0_-8px_30px_rgba(15,23,42,0.12)] backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/95 dark:shadow-[0_-8px_30px_rgba(0,0,0,0.45)] sm:px-6"
+          className="fixed inset-x-0 bottom-0 z-40 border-t border-slate-200/90 bg-background/95 px-4 pb-[max(1rem,env(safe-area-inset-bottom,0px))] pt-4 shadow-[0_-8px_30px_rgba(15,23,42,0.12)] backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/95 dark:shadow-[0_-8px_30px_rgba(0,0,0,0.45)] sm:px-6"
           role="region"
           aria-label="University compare selection"
         >

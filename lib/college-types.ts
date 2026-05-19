@@ -32,6 +32,8 @@ export type ParsedMoneyField =
 export type CollegeRecord = {
   readonly id: string;
   readonly universityName: string;
+  /** Cover photo for cards and detail header; may be omitted and filled at build time. */
+  readonly imageSrc?: string;
   /** When omitted, listings treat the institution as Russia (legacy rows). */
   readonly country?: string;
   readonly webometricsRanking?: WebometricsRanking;
@@ -49,6 +51,8 @@ export type College = CollegeRecord & {
   readonly tuition: ParsedMoneyField;
   readonly hostel: ParsedMoneyField;
   readonly messCharges: MessChargesParsed;
+  /** Always set after build (from JSON or rotated pool). */
+  readonly imageSrc: string;
 };
 
 export type CollegeFilterState = {
@@ -57,6 +61,4 @@ export type CollegeFilterState = {
   readonly selectedCountry: string | null;
   readonly tuitionMinRub: number | null;
   readonly tuitionMaxRub: number | null;
-  readonly hostelMinRub: number | null;
-  readonly hostelMaxRub: number | null;
 };

@@ -20,16 +20,3 @@ export function getTuitionRubFilterOptions(
   }
   return uniqueSortedNumbers(values);
 }
-
-export function getHostelRubFilterOptions(
-  colleges: ReadonlyArray<College>,
-): ReadonlyArray<number> {
-  const values: number[] = [];
-  for (let index = 0; index < colleges.length; index += 1) {
-    const hostel = colleges[index].hostel;
-    if (hostel.kind === "amount") {
-      values.push(Math.round(hostel.amountRub));
-    }
-  }
-  return uniqueSortedNumbers(values);
-}

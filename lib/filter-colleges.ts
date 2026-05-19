@@ -75,15 +75,6 @@ export function filterColleges(
     ) {
       return false;
     }
-    if (
-      !matchesMoneyRange(
-        college.hostel,
-        filters.hostelMinRub,
-        filters.hostelMaxRub,
-      )
-    ) {
-      return false;
-    }
     return true;
   });
 }
