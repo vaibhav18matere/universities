@@ -5,16 +5,15 @@ import { useMemo, useState } from "react";
 import { CollegeCoverImage } from "@/app/components/CollegeCoverImage";
 import type { College, CollegeFilterState } from "@/lib/college-types";
 import {
-  getTuitionMaxInrFilterThresholds,
-  getTuitionMinInrFilterThresholds,
-  type TuitionInrFilterThreshold,
+  getTuitionInrFilterRanges,
+  type TuitionInrFilterRange,
 } from "@/lib/college-filter-options";
 import { getCountryFilterLabels } from "@/lib/college-country-filter-options";
 import { filterColleges } from "@/lib/filter-colleges";
 import {
-  formatInrWhole,
   formatMessChargesInr,
   formatParsedMoneyFieldInr,
+  formatTuitionInrFilterRangeLabel,
 } from "@/lib/inr-display";
 import { buildUniversityComparePath } from "@/lib/university-compare-url";
 import { resolveCollegeCountryLabel } from "@/lib/college-country-label";
@@ -71,35 +70,62 @@ function createCollegeFilterState(
   };
 }
 
-function numberFromSelectValue(rawValue: string): number | null {
-  if (rawValue.length === 0) {
+function findSelectedTuitionRange(
+  ranges: ReadonlyArray<TuitionInrFilterRange>,
+  selectedMinRub: number | null,
+  selectedMaxRub: number | null,
+): TuitionInrFilterRange | null {
+  if (selectedMinRub === null || selectedMaxRub === null) {
     return null;
   }
-  const parsed = Number.parseFloat(rawValue);
-  if (Number.isNaN(parsed)) {
-    return null;
+  for (let index = 0; index < ranges.length; index += 1) {
+    const range = ranges[index];
+    if (range.minRub === selectedMinRub && range.maxRub === selectedMaxRub) {
+      return range;
+    }
   }
-  return parsed;
+  return null;
 }
 
-type TuitionThresholdSelectProps = {
+function findTuitionRangeByMinInr(
+  ranges: ReadonlyArray<TuitionInrFilterRange>,
+  minInr: number,
+): TuitionInrFilterRange | null {
+  for (let index = 0; index < ranges.length; index += 1) {
+    const range = ranges[index];
+    if (range.minInr === minInr) {
+      return range;
+    }
+  }
+  return null;
+}
+
+type TuitionRangeSelectProps = {
   readonly id: string;
   readonly label: string;
-  readonly thresholds: ReadonlyArray<TuitionInrFilterThreshold>;
-  readonly selectedRub: number | null;
+  readonly ranges: ReadonlyArray<TuitionInrFilterRange>;
+  readonly selectedMinRub: number | null;
+  readonly selectedMaxRub: number | null;
   readonly anyLabel: string;
-  readonly onSelectedRubChange: (value: number | null) => void;
+  readonly onSelectedRangeChange: (range: TuitionInrFilterRange | null) => void;
 };
 
-function TuitionThresholdSelect(props: TuitionThresholdSelectProps) {
+function TuitionRangeSelect(props: TuitionRangeSelectProps) {
   const {
     id,
     label,
-    thresholds,
-    selectedRub,
+    ranges,
+    selectedMinRub,
+    selectedMaxRub,
     anyLabel,
-    onSelectedRubChange,
+    onSelectedRangeChange,
   } = props;
+
+  const selectedRange = findSelectedTuitionRange(
+    ranges,
+    selectedMinRub,
+    selectedMaxRub,
+  );
 
   return (
     <div className="flex flex-col gap-2">
@@ -108,16 +134,26 @@ function TuitionThresholdSelect(props: TuitionThresholdSelectProps) {
       </label>
       <select
         id={id}
-        value={selectedRub === null ? "" : String(selectedRub)}
+        value={selectedRange === null ? "" : String(selectedRange.minInr)}
         onChange={(event) => {
-          onSelectedRubChange(numberFromSelectValue(event.target.value));
+          const rawValue = event.target.value;
+          if (rawValue.length === 0) {
+            onSelectedRangeChange(null);
+            return;
+          }
+          const minInr = Number.parseInt(rawValue, 10);
+          if (Number.isNaN(minInr)) {
+            onSelectedRangeChange(null);
+            return;
+          }
+          onSelectedRangeChange(findTuitionRangeByMinInr(ranges, minInr));
         }}
         className={controlClassName}
       >
         <option value="">{anyLabel}</option>
-        {thresholds.map((threshold) => (
-          <option key={threshold.inr} value={String(threshold.rub)}>
-            {formatInrWhole(threshold.inr)}
+        {ranges.map((range) => (
+          <option key={range.minInr} value={String(range.minInr)}>
+            {formatTuitionInrFilterRangeLabel(range.minInr, range.maxInr)}
           </option>
         ))}
       </select>
@@ -134,13 +170,8 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
     () => [],
   );
 
-  const tuitionMinThresholds = useMemo(
-    () => getTuitionMinInrFilterThresholds(colleges),
-    [colleges],
-  );
-
-  const tuitionMaxThresholds = useMemo(
-    () => getTuitionMaxInrFilterThresholds(colleges),
+  const tuitionInrRanges = useMemo(
+    () => getTuitionInrFilterRanges(colleges),
     [colleges],
   );
 
@@ -253,30 +284,19 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
             </div>
           )}
 
-          <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
-            <TuitionThresholdSelect
-              id="tuition-min-rub"
-              label="Tuition — minimum (INR, approx.)"
-              thresholds={tuitionMinThresholds}
-              selectedRub={filters.tuitionMinRub}
-              anyLabel="Any — no lower limit"
-              onSelectedRubChange={(value) => {
+          <div className="flex flex-col gap-2 lg:col-span-2">
+            <TuitionRangeSelect
+              id="tuition-range"
+              label="Tuition (INR, approx.)"
+              ranges={tuitionInrRanges}
+              selectedMinRub={filters.tuitionMinRub}
+              selectedMaxRub={filters.tuitionMaxRub}
+              anyLabel="Any tuition"
+              onSelectedRangeChange={(range) => {
                 setFilters((previous) => ({
                   ...previous,
-                  tuitionMinRub: value,
-                }));
-              }}
-            />
-            <TuitionThresholdSelect
-              id="tuition-max-rub"
-              label="Tuition — maximum (INR, approx.)"
-              thresholds={tuitionMaxThresholds}
-              selectedRub={filters.tuitionMaxRub}
-              anyLabel="Any — no upper limit"
-              onSelectedRubChange={(value) => {
-                setFilters((previous) => ({
-                  ...previous,
-                  tuitionMaxRub: value,
+                  tuitionMinRub: range === null ? null : range.minRub,
+                  tuitionMaxRub: range === null ? null : range.maxRub,
                 }));
               }}
             />

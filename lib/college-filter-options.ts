@@ -38,11 +38,6 @@ function createTuitionInrFilterRange(bucketMinInr: number): TuitionInrFilterRang
   };
 }
 
-export type TuitionInrFilterThreshold = {
-  readonly inr: number;
-  readonly rub: number;
-};
-
 function sortTuitionInrFilterRanges(
   left: TuitionInrFilterRange,
   right: TuitionInrFilterRange,
@@ -68,34 +63,4 @@ export function getTuitionInrFilterRanges(
   }
 
   return Array.from(rangeByMinInr.values()).sort(sortTuitionInrFilterRanges);
-}
-
-export function getTuitionMinInrFilterThresholds(
-  colleges: ReadonlyArray<College>,
-): ReadonlyArray<TuitionInrFilterThreshold> {
-  const ranges = getTuitionInrFilterRanges(colleges);
-  const thresholds: TuitionInrFilterThreshold[] = [];
-  for (let index = 0; index < ranges.length; index += 1) {
-    const range = ranges[index];
-    thresholds.push({
-      inr: range.minInr,
-      rub: range.minRub,
-    });
-  }
-  return thresholds;
-}
-
-export function getTuitionMaxInrFilterThresholds(
-  colleges: ReadonlyArray<College>,
-): ReadonlyArray<TuitionInrFilterThreshold> {
-  const ranges = getTuitionInrFilterRanges(colleges);
-  const thresholds: TuitionInrFilterThreshold[] = [];
-  for (let index = 0; index < ranges.length; index += 1) {
-    const range = ranges[index];
-    thresholds.push({
-      inr: range.maxInr,
-      rub: range.maxRub,
-    });
-  }
-  return thresholds;
 }

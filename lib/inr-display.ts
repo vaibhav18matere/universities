@@ -30,6 +30,13 @@ export function formatInrWhole(amountInr: number): string {
   return `₹${rounded.toLocaleString("en-IN")}`;
 }
 
+export function formatTuitionInrFilterRangeLabel(
+  minInr: number,
+  maxInr: number,
+): string {
+  return `${formatInrWhole(minInr)} - ${formatInrWhole(maxInr)}`;
+}
+
 export function formatRubAmountInInr(amountRub: number): string {
   return formatInrWhole(convertRubToInr(amountRub));
 }
