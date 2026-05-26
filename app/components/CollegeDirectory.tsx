@@ -287,7 +287,7 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
           <div className="flex flex-col gap-2 lg:col-span-2">
             <TuitionRangeSelect
               id="tuition-range"
-              label="Tuition (INR, approx.)"
+              label="Tuition Fees (INR, approx.)"
               ranges={tuitionInrRanges}
               selectedMinRub={filters.tuitionMinRub}
               selectedMaxRub={filters.tuitionMaxRub}
