@@ -17,6 +17,10 @@ export function convertRubToInr(amountRub: number): number {
   return amountRub * getInrPerRub();
 }
 
+export function convertInrToRub(amountInr: number): number {
+  return amountInr / getInrPerRub();
+}
+
 export function convertUsdToInr(amountUsd: number): number {
   return amountUsd * getInrPerUsd();
 }

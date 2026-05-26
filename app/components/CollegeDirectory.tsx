@@ -4,13 +4,17 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { CollegeCoverImage } from "@/app/components/CollegeCoverImage";
 import type { College, CollegeFilterState } from "@/lib/college-types";
-import { getTuitionRubFilterOptions } from "@/lib/college-filter-options";
+import {
+  getTuitionMaxInrFilterThresholds,
+  getTuitionMinInrFilterThresholds,
+  type TuitionInrFilterThreshold,
+} from "@/lib/college-filter-options";
 import { getCountryFilterLabels } from "@/lib/college-country-filter-options";
 import { filterColleges } from "@/lib/filter-colleges";
 import {
+  formatInrWhole,
   formatMessChargesInr,
   formatParsedMoneyFieldInr,
-  formatRubAmountInInr,
 } from "@/lib/inr-display";
 import { buildUniversityComparePath } from "@/lib/university-compare-url";
 import { resolveCollegeCountryLabel } from "@/lib/college-country-label";
@@ -78,20 +82,20 @@ function numberFromSelectValue(rawValue: string): number | null {
   return parsed;
 }
 
-type RubSelectProps = {
+type TuitionThresholdSelectProps = {
   readonly id: string;
   readonly label: string;
-  readonly optionsRub: ReadonlyArray<number>;
+  readonly thresholds: ReadonlyArray<TuitionInrFilterThreshold>;
   readonly selectedRub: number | null;
   readonly anyLabel: string;
   readonly onSelectedRubChange: (value: number | null) => void;
 };
 
-function RubFilterSelect(props: RubSelectProps) {
+function TuitionThresholdSelect(props: TuitionThresholdSelectProps) {
   const {
     id,
     label,
-    optionsRub,
+    thresholds,
     selectedRub,
     anyLabel,
     onSelectedRubChange,
@@ -111,9 +115,9 @@ function RubFilterSelect(props: RubSelectProps) {
         className={controlClassName}
       >
         <option value="">{anyLabel}</option>
-        {optionsRub.map((amountRub) => (
-          <option key={amountRub} value={String(amountRub)}>
-            {formatRubAmountInInr(amountRub)}
+        {thresholds.map((threshold) => (
+          <option key={threshold.inr} value={String(threshold.rub)}>
+            {formatInrWhole(threshold.inr)}
           </option>
         ))}
       </select>
@@ -130,8 +134,13 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
     () => [],
   );
 
-  const tuitionRubOptions = useMemo(
-    () => getTuitionRubFilterOptions(colleges),
+  const tuitionMinThresholds = useMemo(
+    () => getTuitionMinInrFilterThresholds(colleges),
+    [colleges],
+  );
+
+  const tuitionMaxThresholds = useMemo(
+    () => getTuitionMaxInrFilterThresholds(colleges),
     [colleges],
   );
 
@@ -245,10 +254,10 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
           )}
 
           <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
-            <RubFilterSelect
+            <TuitionThresholdSelect
               id="tuition-min-rub"
               label="Tuition — minimum (INR, approx.)"
-              optionsRub={tuitionRubOptions}
+              thresholds={tuitionMinThresholds}
               selectedRub={filters.tuitionMinRub}
               anyLabel="Any — no lower limit"
               onSelectedRubChange={(value) => {
@@ -258,10 +267,10 @@ export function CollegeDirectory(props: CollegeDirectoryProps) {
                 }));
               }}
             />
-            <RubFilterSelect
+            <TuitionThresholdSelect
               id="tuition-max-rub"
               label="Tuition — maximum (INR, approx.)"
-              optionsRub={tuitionRubOptions}
+              thresholds={tuitionMaxThresholds}
               selectedRub={filters.tuitionMaxRub}
               anyLabel="Any — no upper limit"
               onSelectedRubChange={(value) => {
