@@ -1,19 +1,14 @@
 import type { College, CollegeRecord } from "./college-types";
-import { COLLEGE_COVER_IMAGE_URLS } from "./college-cover-image-urls";
+import { resolveCollegeCoverImageSrc } from "./college-cover-image-urls";
 import { ensureUniqueSlug, universityNameToBaseSlug } from "./college-slug";
 import { getRubPerUsd, parseMessCharges, parseMoneyField } from "./parse-fees";
 
-function resolveCollegeImageSrc(
-  record: CollegeRecord,
-  rowIndex: number,
-): string {
+function resolveCollegeImageSrc(record: CollegeRecord): string {
   const fromRecord = record.imageSrc;
   if (fromRecord !== undefined && fromRecord.trim().length > 0) {
     return fromRecord.trim();
   }
-  return COLLEGE_COVER_IMAGE_URLS[
-    rowIndex % COLLEGE_COVER_IMAGE_URLS.length
-  ];
+  return resolveCollegeCoverImageSrc(record.universityName);
 }
 
 export function buildColleges(records: ReadonlyArray<CollegeRecord>): ReadonlyArray<College> {
@@ -41,7 +36,7 @@ export function buildColleges(records: ReadonlyArray<CollegeRecord>): ReadonlyAr
       tuition,
       hostel,
       messCharges,
-      imageSrc: resolveCollegeImageSrc(record, index),
+      imageSrc: resolveCollegeImageSrc(record),
     });
   }
 
