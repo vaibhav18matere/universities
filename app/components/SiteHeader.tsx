@@ -22,11 +22,7 @@ function LogoMark() {
           fill="currentColor"
           className="opacity-95"
         />
-        <path
-          d="M10 6h12v6H10V6z"
-          fill="currentColor"
-          className="opacity-80"
-        />
+        <path d="M10 6h12v6H10V6z" fill="currentColor" className="opacity-80" />
         <path d="M15 12h2v10h-2V12z" fill="var(--surface)" />
         <path d="M12 15h8v2h-8v-2z" fill="var(--surface)" />
       </svg>
@@ -36,7 +32,12 @@ function LogoMark() {
 
 function IconArrowRight() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 20 20"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M12.59 4.59 18 10l-5.41 5.41-1.18-1.18L14.76 11H4V9h10.76l-3.35-3.23 1.18-1.18Z" />
     </svg>
   );
@@ -44,7 +45,12 @@ function IconArrowRight() {
 
 function IconKey() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 20 20"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M12.5 2a4.5 4.5 0 0 1 3.18 7.68L18 12h-2v2h-2v2h-2v2H6v-3.09A4.5 4.5 0 1 1 12.5 2Zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5Z" />
     </svg>
   );
@@ -52,7 +58,12 @@ function IconKey() {
 
 function IconHeadset() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 20 20"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M10 2a6 6 0 0 0-6 6v3H3v4h3v-4H5V8a5 5 0 0 1 10 0v3h-1v4h3v-4h-1V8a6 6 0 0 0-6-6Z" />
     </svg>
   );
@@ -60,7 +71,12 @@ function IconHeadset() {
 
 function IconPhone() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4 shrink-0" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 20 20"
+      className="h-4 w-4 shrink-0"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M4.5 3h2l1.5 4-1.3 1.3a11 11 0 0 0 5.5 5.5L14 12l4 1.5v2a2 2 0 0 1-2.2 2A16 16 0 0 1 4.5 5.2 2 2 0 0 1 4.5 3Z" />
     </svg>
   );
@@ -68,7 +84,12 @@ function IconPhone() {
 
 function IconWhatsApp() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4 shrink-0" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 20 20"
+      className="h-4 w-4 shrink-0"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M10 2a8 8 0 0 0-6.8 12.1L3 18l4.1-1.1A8 8 0 1 0 10 2Zm0 1.5a6.5 6.5 0 0 1 5.5 9.9l.1.3-.4 1.3-1.3-.3a6.5 6.5 0 1 1-4-11.2Z" />
       <path d="M7.2 6.8c.2-.5.4-.5.7-.5h.6c.2 0 .4.1.5.5l.8 1.9c0 .2 0 .4-.1.5l-.5.6c-.1.1-.1.3 0 .4.4.7 1 1.3 1.7 1.7.1.1.3.1.4 0l.6-.5c.1-.1.4-.1.5 0l1.8 1c.2.1.3.3.3.5v.6c0 .3-.1.5-.4.7-.6.4-1.3.6-2 .6-2.4 0-5.5-3.1-5.5-5.5 0-.7.2-1.4.6-2Z" />
     </svg>
@@ -77,7 +98,12 @@ function IconWhatsApp() {
 
 function IconChevronDown() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 20 20"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M5.23 7.21 10 12l4.77-4.79 1.06 1.06L10 14.12 4.17 8.27l1.06-1.06Z" />
     </svg>
   );
@@ -85,7 +111,12 @@ function IconChevronDown() {
 
 function IconMenu() {
   return (
-    <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-6 w-6"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M4 7h16v2H4V7Zm0 5h16v2H4v-2Zm0 5h16v2H4v-2Z" />
     </svg>
   );
@@ -93,7 +124,12 @@ function IconMenu() {
 
 function IconClose() {
   return (
-    <svg viewBox="0 0 24 24" className="h-6 w-6" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-6 w-6"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12 19 17.6 17.6 19 12 13.4 6.4 19 5 17.6 10.6 12 5 6.4Z" />
     </svg>
   );
@@ -137,7 +173,12 @@ const mobileNavItems: ReadonlyArray<MobileNavItem> = [
 
 function IconNavChevron() {
   return (
-    <svg viewBox="0 0 20 20" className="h-5 w-5 shrink-0 text-slate-300 dark:text-slate-600" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 20 20"
+      className="h-5 w-5 shrink-0 text-slate-300 dark:text-slate-600"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M8.12 4.47 14.65 11l-6.53 6.53-1.06-1.06L12.53 11 7.06 5.53l1.06-1.06Z" />
     </svg>
   );
@@ -145,7 +186,12 @@ function IconNavChevron() {
 
 function IconHomeNav() {
   return (
-    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M12 3 4 9.5V20h5v-6h6v6h5V9.5L12 3Z" />
     </svg>
   );
@@ -153,7 +199,12 @@ function IconHomeNav() {
 
 function IconAboutNav() {
   return (
-    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 4.5a1.25 1.25 0 1 1-1.25 1.25A1.25 1.25 0 0 1 12 6.5ZM11 11h2v7h-2v-7Z" />
     </svg>
   );
@@ -161,7 +212,12 @@ function IconAboutNav() {
 
 function IconUniversitiesNav() {
   return (
-    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-5 w-5"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M4 20V9l8-5 8 5v11h-5v-6h-2v6H4Zm2-2h2v-6h8v6h2V9.5l-6-3.75L6 9.5V18Z" />
     </svg>
   );
@@ -271,12 +327,12 @@ function MobileNavDrawer(props: MobileNavDrawerProps) {
         <div className="mt-auto border-t border-slate-200/80 bg-surface-muted/30 px-4 py-4 dark:border-slate-800 dark:bg-slate-900/40">
           <div className="flex flex-col gap-2.5">
             <a
-              href="tel:+919595718686"
+              href="tel:+918010584844"
               onClick={onClose}
               className="inline-flex min-h-12 items-center justify-center gap-2.5 rounded-2xl bg-accent px-4 py-3 text-sm font-semibold text-accent-foreground shadow-md shadow-accent/25 transition hover:brightness-110 active:scale-[0.98] dark:shadow-black/40"
             >
               <IconPhone />
-              Call +91 9595718686
+              Call +91 8010584844
             </a>
             <a
               href="https://wa.me/917058362626"
@@ -297,7 +353,12 @@ function MobileNavDrawer(props: MobileNavDrawerProps) {
 
 function SocialIconFacebook() {
   return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M22 12a10 10 0 1 0-11.5 9.9v-7H7v-3h3.5V9.5c0-3.5 2-5.5 5.3-5.5 1.5 0 3.2.3 3.2.3v3.5h-1.8c-1.8 0-2.4 1.1-2.4 2.2V12h4l-.6 3h-3.4v7A10 10 0 0 0 22 12Z" />
     </svg>
   );
@@ -305,7 +366,12 @@ function SocialIconFacebook() {
 
 function SocialIconLinkedIn() {
   return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.5 8h4V23h-4V8Zm7.5 0h3.8v2h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 6V23h-4v-6.7c0-1.6 0-3.6-2.2-3.6-2.2 0-2.5 1.7-2.5 3.5V23h-4V8Z" />
     </svg>
   );
@@ -313,7 +379,12 @@ function SocialIconLinkedIn() {
 
 function SocialIconInstagram() {
   return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5Zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5ZM18 6.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
     </svg>
   );
@@ -321,7 +392,12 @@ function SocialIconInstagram() {
 
 function SocialIconYouTube() {
   return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M23.5 7.2s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.4-1C17 3.5 12 3.5 12 3.5h0s-5 0-8.2.4c-.5.1-1.5.1-2.4 1C.7 5.6.5 7.2.5 7.2S0 9.1 0 11v1.8c0 1.9.5 3.8.5 3.8s.2 1.6.9 2.3c.9.9 2.1.9 2.6 1 1.9.2 8 .4 8 .4s5 0 8.2-.4c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.3.9-2.3s.5-1.9.5-3.8V11c0-1.9-.5-3.8-.5-3.8ZM9.5 14.7V8.2l6.2 3.25-6.2 3.25Z" />
     </svg>
   );
@@ -329,7 +405,12 @@ function SocialIconYouTube() {
 
 function SocialIconMail() {
   return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden>
+    <svg
+      viewBox="0 0 24 24"
+      className="h-4 w-4"
+      fill="currentColor"
+      aria-hidden
+    >
       <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z" />
     </svg>
   );
@@ -529,7 +610,7 @@ export function SiteHeader() {
                 Live Counselling
               </button> */}
               <a
-                href="tel:+919595718686"
+                href="tel:+918010584844"
                 className="flex min-h-11 items-start gap-2 rounded-lg text-sm text-slate-700 transition hover:text-accent active:bg-surface-muted sm:min-h-0 dark:text-slate-200"
               >
                 <span className="mt-0.5 text-accent">
@@ -539,7 +620,9 @@ export function SiteHeader() {
                   <span className="block text-xs font-medium text-slate-500 dark:text-slate-400">
                     Talk to an Expert Now
                   </span>
-                  <span className="font-semibold text-accent">+91 9595718686</span>
+                  <span className="font-semibold text-accent">
+                    +91 8010584844
+                  </span>
                 </span>
               </a>
               <a
@@ -555,7 +638,9 @@ export function SiteHeader() {
                   <span className="block text-xs font-medium text-slate-500 dark:text-slate-400">
                     Chat on WhatsApp
                   </span>
-                  <span className="font-semibold text-whatsapp">+91 7058362626</span>
+                  <span className="font-semibold text-whatsapp">
+                    +91 8010584844
+                  </span>
                 </span>
               </a>
             </div>
