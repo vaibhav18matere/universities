@@ -64,7 +64,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/lrkutsk%20state%20medical%20university_.webp"
   },
   {
     "id": "2",
@@ -131,7 +131,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Kazan%20Federal%20University.jpeg"
   },
   {
     "id": "3",
@@ -142,7 +142,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1200",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Kazan%20State%20Medical%20University.jpg"
   },
   {
     "id": "4",
@@ -209,7 +209,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Crimea%20Federal%20University.jpeg"
   },
   {
     "id": "5",
@@ -276,7 +276,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Far%20Eastern%20Federal%20University.jpeg"
   },
   {
     "id": "6",
@@ -287,7 +287,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Orenburg%20State%20Medical%20University.jpeg"
   },
   {
     "id": "7",
@@ -354,7 +354,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Bashkir-State-Medical-University.webp"
   },
   {
     "id": "8",
@@ -421,7 +421,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Siberian%20State%20Medical%20University.jpeg"
   },
   {
     "id": "9",
@@ -432,7 +432,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Rostov%20State%20Medical%20University.jpeg"
   },
   {
     "id": "10",
@@ -443,7 +443,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1400",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Peoples_%20Friendship%20University.jpeg"
   },
   {
     "id": "11",
@@ -454,7 +454,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1500",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/First%20moscow%20State%20University.jpeg"
   },
   {
     "id": "12",
@@ -465,7 +465,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1350",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Pavlov-First-Saint-Petersburg-State-Medical-University.webp"
   },
   {
     "id": "13",
@@ -476,7 +476,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "14",
@@ -543,7 +543,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Ryazan-State-Medical-University.webp"
   },
   {
     "id": "15",
@@ -554,7 +554,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Perm-State-Medical-University.webp"
   },
   {
     "id": "16",
@@ -565,7 +565,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1100",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Mari-State-University-570x500.webp"
   },
   {
     "id": "17",
@@ -632,7 +632,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/North-Ossetian-State-Medical-Academy_.webp"
   },
   {
     "id": "18",
@@ -643,7 +643,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1300",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Smolensk-State-Medical-University.webp"
   },
   {
     "id": "19",
@@ -710,7 +710,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Tver-State-Medical-Unvieristy-MBBS-Fee.jpeg"
   },
   {
     "id": "20",
@@ -777,7 +777,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Omsk-State-Medical-University.webp"
   },
   {
     "id": "21",
@@ -844,7 +844,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Saint-Petersburg-Pediatric-Medical-01.webp"
   },
   {
     "id": "22",
@@ -911,7 +911,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Immanuel%20Kant%20Baltic%20Federal%20University.jpeg"
   },
   {
     "id": "23",
@@ -922,7 +922,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1500",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Pirogov%20Russian%20National%20Research%20Center.jpg"
   },
   {
     "id": "24",
@@ -989,7 +989,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Yaroslavl%20State%20Medical%20University%20(YSMU).jpeg"
   },
   {
     "id": "25",
@@ -1056,7 +1056,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Voronezh-Medical-university-Russia.jpg"
   },
   {
     "id": "26",
@@ -1067,7 +1067,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1200",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Astrakhan%20State%20Medical%20University.webp"
   },
   {
     "id": "27",
@@ -1078,7 +1078,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "1300",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Northern-State-Medical-University-1.webp"
   },
   {
     "id": "28",
@@ -1146,7 +1146,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Chuvash%20State%20University%20%20(Mess%20-%20Compulsory).jpeg"
   },
   {
     "id": "29",
@@ -1213,7 +1213,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Ulyanovsk%20State%20University.webp"
   },
   {
     "id": "30",
@@ -1224,7 +1224,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "31",
@@ -1291,7 +1291,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/volgograd-state-medical-university-5.webp"
   },
   {
     "id": "32",
@@ -1302,7 +1302,7 @@
     "otcChargesUsd": 2000,
     "messChargesRaw": "NA",
     "serviceChargesRub": 175000,
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "33",
@@ -1369,7 +1369,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/North-Western%20State%20Medical%20University.jpeg"
   },
   {
     "id": "34",
@@ -1436,7 +1436,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/North-Caucasian-State-Academy-1-1024x636.webp"
   },
   {
     "id": "35",
@@ -1503,7 +1503,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/MEPhI%20National%20Research%20Nuclear%20University.webp"
   },
   {
     "id": "36",
@@ -1570,7 +1570,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Kemerovo%20state%20medical%20university%20.jpeg"
   },
   {
     "id": "37",
@@ -1637,7 +1637,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Kemerovo-State-University.webp"
   },
   {
     "id": "38",
@@ -1704,7 +1704,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Ivanovo-State-Medical-Academy.webp"
   },
   {
     "id": "39",
@@ -1771,7 +1771,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Kabardino-Balkarian%20State%20University.jpg"
   },
   {
     "id": "40",
@@ -1838,7 +1838,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Tambov%20State%20University%20.jpeg"
   },
   {
     "id": "41",
@@ -1905,7 +1905,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Samara%20State%20Medical%20University.jpeg"
   },
   {
     "id": "42",
@@ -1972,7 +1972,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/orel-state-university-banner-570x500.jpg"
   },
   {
     "id": "43",
@@ -2039,7 +2039,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/Yaroslav-the-Wise%20Novgorod%20State%20University.jpeg"
   },
   {
     "id": "44",
@@ -2106,7 +2106,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/universities/ural-state-medical-university-smapse-samll.jpg"
   },
   {
     "id": "45",
@@ -2125,7 +2125,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "46",
@@ -2144,7 +2144,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "47",
@@ -2163,7 +2163,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "48",
@@ -2182,7 +2182,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "49",
@@ -2201,7 +2201,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "50",
@@ -2220,7 +2220,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "51",
@@ -2239,7 +2239,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "52",
@@ -2258,7 +2258,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "53",
@@ -2277,7 +2277,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "54",
@@ -2296,7 +2296,7 @@
     "otcChargesUsd": 0,
     "messChargesRaw": "NA",
     "serviceChargesRub": 0,
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "55",
@@ -2362,7 +2362,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "56",
@@ -2428,7 +2428,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "57",
@@ -2494,7 +2494,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "58",
@@ -2560,7 +2560,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "59",
@@ -2626,7 +2626,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "60",
@@ -2692,7 +2692,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "61",
@@ -2758,7 +2758,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "62",
@@ -2824,7 +2824,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "63",
@@ -2890,7 +2890,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "64",
@@ -2956,7 +2956,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "65",
@@ -3022,7 +3022,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "66",
@@ -3088,7 +3088,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "67",
@@ -3154,7 +3154,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "68",
@@ -3220,7 +3220,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "69",
@@ -3286,7 +3286,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "70",
@@ -3352,7 +3352,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "71",
@@ -3418,7 +3418,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "72",
@@ -3484,7 +3484,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "73",
@@ -3550,7 +3550,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "74",
@@ -3616,7 +3616,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "75",
@@ -3682,7 +3682,7 @@
       ],
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "76",
@@ -3747,7 +3747,7 @@
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
     },
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "77",
@@ -3812,7 +3812,7 @@
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
     },
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "78",
@@ -3877,7 +3877,7 @@
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
     },
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "79",
@@ -3942,7 +3942,7 @@
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
     },
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "80",
@@ -4007,7 +4007,7 @@
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
     },
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "81",
@@ -4072,7 +4072,7 @@
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
     },
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "id": "82",
@@ -4137,7 +4137,7 @@
       "tuitionYearsSectionTitle": "Tuition by year (years 1–5)",
       "totalTuitionBannerTitle": "Approx. total tuition (years 1–5, INR)"
     },
-    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Kazakh National Medical University",
@@ -4200,7 +4200,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "83",
-    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Kazakh-Russian Medical University",
@@ -4263,7 +4263,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "84",
-    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "South Kazakh State Medical University",
@@ -4327,7 +4327,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "85",
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Al-Farabi Kazakh National University",
@@ -4391,7 +4391,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "86",
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Caspian International School of Medicine (PTP - $1000)",
@@ -4455,7 +4455,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "87",
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Kokshetau State University (PTP - $1000)",
@@ -4519,7 +4519,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "88",
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "West Kazakhstan Marat Ospanov State Medical University",
@@ -4582,7 +4582,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "89",
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "North Kazakhstan State University",
@@ -4645,7 +4645,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "90",
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Astana Medical University",
@@ -4708,7 +4708,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "91",
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Semey State Medical University",
@@ -4771,7 +4771,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "92",
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Karaganda Medical University",
@@ -4834,7 +4834,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "93",
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Osh International University",
@@ -4894,7 +4894,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "94",
-    "imageSrc": "https://images.unsplash.com/photo-1498243691581-b145c3f54a78?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Kyrgyz Russian Slavic University (Including Everything)",
@@ -4954,7 +4954,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "95",
-    "imageSrc": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Osh State University",
@@ -5014,7 +5014,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "96",
-    "imageSrc": "https://images.unsplash.com/photo-1606761568499-6d2450b9a566?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Jalal-Abad International University",
@@ -5075,7 +5075,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "97",
-    "imageSrc": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Kyrgyz State Medical Academy (KSMA)",
@@ -5135,7 +5135,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "98",
-    "imageSrc": "https://images.unsplash.com/photo-1562774053-7019e77fca5f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Kyrgyz National Medical University",
@@ -5196,7 +5196,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "99",
-    "imageSrc": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "ISM (Easy Cool)",
@@ -5256,7 +5256,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "100",
-    "imageSrc": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "IHSM (Central Campus)",
@@ -5316,7 +5316,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "101",
-    "imageSrc": "https://images.unsplash.com/photo-1509062522246-945bff79e127?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Asian Medical Institute",
@@ -5376,7 +5376,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "102",
-    "imageSrc": "https://images.unsplash.com/photo-1580582932707-52041e403f67?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Jalal-Abad State University",
@@ -5437,7 +5437,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "103",
-    "imageSrc": "https://images.unsplash.com/photo-1497634762265-486443c34de2?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "International Medical University",
@@ -5497,7 +5497,7 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "104",
-    "imageSrc": "https://images.unsplash.com/photo-1524178232363-1e2c9c6c1230?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   },
   {
     "universityName": "Central Asian International Medical University (CAIMU)",
@@ -5557,6 +5557,6 @@
       "contactPhoneNumbers": ["8010584844", "7058362626"]
     },
     "id": "105",
-    "imageSrc": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    "imageSrc": "/images/default-university-cover.svg"
   }
 ]
