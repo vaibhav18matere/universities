@@ -50,7 +50,7 @@ export function buildColleges(
       tuition,
       hostel,
       messCharges,
-      imageSrc: resolveCollegeImageSrc(record),
+      imageSrc: resolveCollegeImageSrc(record, index),
     });
   }
 

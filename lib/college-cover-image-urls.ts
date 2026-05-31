@@ -48,7 +48,7 @@ const LOCAL_COLLEGE_IMAGE_URL_MAP = fs.existsSync(PUBLIC_COLLEGE_IMAGE_DIR)
 export const COLLEGE_COVER_IMAGE_URLS: ReadonlyArray<string> =
   LOCAL_COLLEGE_IMAGE_URLS.length > 0
     ? LOCAL_COLLEGE_IMAGE_URLS
-    : collegeCoverImageUrls;
+    : Object.values(collegeCoverImageUrls);
 
 export function getLocalCollegeImageUrl(
   universityName: string,
