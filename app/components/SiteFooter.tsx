@@ -82,13 +82,13 @@ export function SiteFooter() {
               Contact
             </h3>
             <div className="mt-4 flex flex-col gap-3">
-              <a
+              {/* <a
                 href="mailto:info@sundareducational.com"
                 className="flex items-center gap-2 text-sm text-slate-300 transition hover:text-white"
               >
                 <IconEnvelope />
                 info@sundareducational.com
-              </a>
+              </a> */}
               <a
                 href="tel:+918010584844"
                 className="flex items-center gap-2 text-sm text-slate-300 transition hover:text-white"

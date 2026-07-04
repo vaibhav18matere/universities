@@ -30,18 +30,18 @@ function LogoMark() {
   );
 }
 
-function IconArrowRight() {
-  return (
-    <svg
-      viewBox="0 0 20 20"
-      className="h-4 w-4"
-      fill="currentColor"
-      aria-hidden
-    >
-      <path d="M12.59 4.59 18 10l-5.41 5.41-1.18-1.18L14.76 11H4V9h10.76l-3.35-3.23 1.18-1.18Z" />
-    </svg>
-  );
-}
+// function IconArrowRight() {
+//   return (
+//     <svg
+//       viewBox="0 0 20 20"
+//       className="h-4 w-4"
+//       fill="currentColor"
+//       aria-hidden
+//     >
+//       <path d="M12.59 4.59 18 10l-5.41 5.41-1.18-1.18L14.76 11H4V9h10.76l-3.35-3.23 1.18-1.18Z" />
+//     </svg>
+//   );
+// }
 
 function IconKey() {
   return (

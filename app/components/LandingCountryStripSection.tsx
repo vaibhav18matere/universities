@@ -32,12 +32,12 @@ export function LandingCountryStripSection() {
           ))}
         </div>
         <div className="mt-8 flex justify-center sm:mt-10">
-          <Link
+          {/* <Link
             href={buildUniversitiesHubPath()}
             className="text-sm font-semibold text-accent underline-offset-4 transition hover:underline"
           >
             View All →
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
