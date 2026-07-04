@@ -118,7 +118,7 @@ export function SiteFooter() {
         </div>
 
         <div className="flex flex-col gap-4 border-t border-slate-700 pt-8 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>Sundar Educational · University Directory </p>
+          {/* <p>Sundar Educational · University Directory </p> */}
           <p className="text-slate-400">© {year} All Rights Reserved</p>
         </div>
       </div>

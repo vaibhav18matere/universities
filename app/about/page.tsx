@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Sundar Educational Consultancy — MBBS abroad guidance from Nashik, Maharashtra. Mission, experience, and why students choose SEC.",
+    "MBBS abroad guidance from Nashik, Maharashtra. Mission, experience, and why students choose SEC.",
 };
 
 type WhyChooseUsPoint = {
@@ -50,9 +50,9 @@ export default function AboutPage() {
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
           About us
         </p>
-        <h1 className="mt-3 text-balance text-3xl font-bold tracking-tight text-brand-ink dark:text-slate-50 sm:text-4xl">
+        {/* <h1 className="mt-3 text-balance text-3xl font-bold tracking-tight text-brand-ink dark:text-slate-50 sm:text-4xl">
           Sundar Educational Consultancy
-        </h1>
+        </h1> */}
         <p className="mt-4 text-lg font-medium text-slate-700 dark:text-slate-300">
           Trusted MBBS-abroad guidance based in Nashik, Maharashtra
         </p>
@@ -67,9 +67,9 @@ export default function AboutPage() {
         </p>
         <p>
           SEC is run stringently by a group of professionals with mature
-          experience guiding students for MBBS abroad. SEC has successfully guided
-          hundreds of students to Russia, placed in leading universities. SEC
-          also works in close coordination with authorities at leading
+          experience guiding students for MBBS abroad. SEC has successfully
+          guided hundreds of students to Russia, placed in leading universities.
+          SEC also works in close coordination with authorities at leading
           universities to promote world-class medical education, resources, and
           talent.
         </p>
@@ -77,9 +77,9 @@ export default function AboutPage() {
           Today SEC holds exclusive rights for admission to government
           universities under the Ministry of Public Health, Russian Federation
           and the Kyrgyz Republic, whose certification is recognized by the
-          Medical Council of India. SEC Proprietor: Pri. V. R. Rasal. SEC partners
-          with WCI (World Choice International), working together in India and
-          abroad to ease admission for medical students.
+          Medical Council of India. SEC Proprietor: Pri. V. R. Rasal. SEC
+          partners with WCI (World Choice International), working together in
+          India and abroad to ease admission for medical students.
         </p>
         <p>
           Our representatives and staff are ready to share the right knowledge
