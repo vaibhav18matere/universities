@@ -17,12 +17,12 @@ export default function UniversitiesHubPage() {
           Universities by country
         </h1>
         <p className="text-sm text-slate-500 dark:text-slate-500">
-          Want the full list across all countries?{" "}
+          Want the full list across all countries?
           <Link
             href="/#directory"
             className="font-semibold text-accent underline-offset-4 hover:underline"
           >
-            Open the directory on the home page
+            Open the directory on the homepage
           </Link>
           .
         </p>
