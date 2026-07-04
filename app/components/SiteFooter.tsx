@@ -97,7 +97,7 @@ export function SiteFooter() {
                 +91 8010584844
               </a>
               <a
-                href="https://wa.me/917058362626"
+                href="https://wa.me/918010584844"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 text-sm text-whatsapp transition hover:text-white"
@@ -112,8 +112,7 @@ export function SiteFooter() {
               Office Addresses
             </h3>
             <p className="mt-4 text-sm leading-relaxed text-slate-400">
-              Shop no 10/11, Siddheshwar Apt, Pumping Station, Gangapur Road,
-              Nashik, Maharashtra, India — 422013
+              Gangapur Road, Nashik, Maharashtra, India — 422013
             </p>
           </div>
         </div>

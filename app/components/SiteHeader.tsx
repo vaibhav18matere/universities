@@ -335,7 +335,7 @@ function MobileNavDrawer(props: MobileNavDrawerProps) {
               Call +91 8010584844
             </a>
             <a
-              href="https://wa.me/917058362626"
+              href="https://wa.me/918010584844"
               target="_blank"
               rel="noreferrer"
               onClick={onClose}
@@ -556,9 +556,9 @@ export function SiteHeader() {
             <span className="block truncate text-sm font-bold uppercase tracking-wide text-brand-ink dark:text-slate-100">
               University Directory
             </span>
-            <span className="block truncate text-[10px] font-medium leading-snug text-slate-500 dark:text-slate-400">
+            {/* <span className="block truncate text-[10px] font-medium leading-snug text-slate-500 dark:text-slate-400">
               by Dr. Dipesh Rasal
-            </span>
+            </span> */}
           </span>
         </Link>
         <button
@@ -594,9 +594,9 @@ export function SiteHeader() {
               <span className="block text-base font-bold uppercase tracking-wide text-brand-ink sm:text-lg dark:text-slate-100">
                 University Directory
               </span>
-              <span className="block text-[11px] font-medium leading-snug text-slate-500 sm:text-xs dark:text-slate-400">
+              {/* <span className="block text-[11px] font-medium leading-snug text-slate-500 sm:text-xs dark:text-slate-400">
                 by Dr. Dipesh Rasal (MBBS, DMRE)
-              </span>
+              </span> */}
             </span>
           </Link>
 
@@ -626,7 +626,7 @@ export function SiteHeader() {
                 </span>
               </a>
               <a
-                href="https://wa.me/917058362626"
+                href="https://wa.me/8010584844"
                 target="_blank"
                 rel="noreferrer"
                 className="flex min-h-11 items-start gap-2 rounded-lg text-sm text-slate-700 transition hover:opacity-90 active:bg-surface-muted sm:min-h-0 dark:text-slate-200"
