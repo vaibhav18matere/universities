@@ -26,7 +26,29 @@ const MANUAL_UNIVERSITY_TO_FILENAME = {
     "Saint-Petersburg-Pediatric-Medical-01.webp",
   "MEPHI National Research Nuclear University":
     " MEPhI National Research Nuclear University.webp",
+  "Tbilisi State Medical University": "Tblisi State Medical University.jpeg",
+  "Bukhara State Medical University":
+    "bukhara_state_medical_institute1_f3ae66fb3a.avif",
+  "Caucasus University": "Caucasus International University.jpeg",
+  "Free University of Tbilisi": "European University.jpg",
+  "International Medical University": "International Medical University.jpeg",
+  "Central Asian International Medical University (CAIMU)":
+    "Central Asian International Medical University (CAIMU).jpeg",
+  "Georgian Technical University": "Georgian-American-University-GAU-Georgia.webp",
+  "Cairo University, Cairo": "1-Cairo-University.webp",
+  "Kazakh National Medical University":
+    "Al-Farabi-Kazakh-National-Medical-University-300x155.jpg",
+  "Al-Farabi Kazakh National University":
+    "Kazakh National Medical University.jpeg",
 };
+
+/** Universities with no matching image in data/images — keep default cover. */
+const EXPLICIT_FALLBACK_UNIVERSITIES = new Set([
+  "Kursk State Medical University",
+  "Dagestan State Medical University",
+  "ISM (Easy Cool)",
+  "Agricultural University of Georgia",
+]);
 
 const DEFAULT_COVER_IMAGE_SRC = "/images/default-university-cover.svg";
 
@@ -154,6 +176,11 @@ function buildMapping(universityNames, imageFiles) {
   const unmatched = [];
 
   for (const universityName of universityNames) {
+    if (EXPLICIT_FALLBACK_UNIVERSITIES.has(universityName)) {
+      unmatched.push(universityName);
+      continue;
+    }
+
     const fileName = findBestImageFile(universityName, imageFiles, usedFiles);
     if (fileName === null) {
       unmatched.push(universityName);
