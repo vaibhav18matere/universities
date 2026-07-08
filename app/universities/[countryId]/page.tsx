@@ -43,7 +43,7 @@ export default async function UniversitiesByCountryPage(
   const colleges = getAllColleges();
 
   return (
-      <section className="relative min-w-0 overflow-x-clip bg-surface pb-12 pt-8 dark:bg-slate-950 sm:pb-16 sm:pt-10 md:pt-12">
+      <section className="relative min-w-0 overflow-x-clip pb-12 pt-8 sm:pb-16 sm:pt-10 md:pt-12">
       <div className="mx-auto mb-8 max-w-7xl px-4 sm:mb-10 sm:px-6 lg:px-8">
         <nav
           className="mb-6 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs sm:text-sm"

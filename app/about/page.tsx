@@ -91,7 +91,7 @@ export default function AboutPage() {
 
       <section
         id="why-choose-us"
-        className="mt-14 rounded-2xl border border-slate-200 bg-surface p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:p-8"
+        className="mt-14 rounded-2xl border border-slate-200/80 glass-panel p-6 shadow-sm dark:border-slate-800 sm:p-8"
         aria-labelledby="why-choose-us-heading"
       >
         <h2
@@ -120,7 +120,7 @@ export default function AboutPage() {
         >
           Open the university directory
         </Link>{" "}
-        to search, filter, and compare up to three universities.
+        to search, filter, and view university fees.
       </p>
     </div>
   );

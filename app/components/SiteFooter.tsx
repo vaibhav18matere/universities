@@ -65,7 +65,7 @@ export function SiteFooter() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative mt-auto bg-[#1a1a1a] pb-[env(safe-area-inset-bottom,0px)] text-slate-200">
+    <footer className="glass-footer relative mt-auto pb-[env(safe-area-inset-bottom,0px)] text-slate-200">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 border-b border-slate-700 pb-10 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">

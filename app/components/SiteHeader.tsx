@@ -1,5 +1,6 @@
 "use client";
 
+import { ThemeToggle } from "@/app/components/ThemeToggle";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { megaMenuCountries } from "@/lib/landing-static";
@@ -136,7 +137,7 @@ function IconClose() {
 }
 
 const primaryNavLinkClassName =
-  "shrink-0 rounded-lg px-3 py-2.5 text-sm font-medium text-slate-700 transition hover:bg-surface-muted hover:text-accent sm:py-2 dark:text-slate-200 dark:hover:bg-slate-800";
+  "shrink-0 rounded-lg px-3 py-2.5 text-sm font-semibold text-foreground transition hover:bg-surface-muted hover:text-accent sm:py-2 dark:hover:bg-slate-800";
 
 const mobileHamburgerButtonClassName =
   "inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border text-slate-700 shadow-sm transition active:scale-[0.98] dark:text-slate-100";
@@ -325,6 +326,12 @@ function MobileNavDrawer(props: MobileNavDrawerProps) {
         </div>
 
         <div className="mt-auto border-t border-slate-200/80 bg-surface-muted/30 px-4 py-4 dark:border-slate-800 dark:bg-slate-900/40">
+          <div className="mb-3 flex items-center justify-between gap-3 rounded-2xl border border-slate-200/80 bg-surface px-4 py-3 dark:border-slate-700 dark:bg-slate-900">
+            <span className="text-sm font-medium text-slate-700 dark:text-slate-200">
+              Appearance
+            </span>
+            <ThemeToggle />
+          </div>
           <div className="flex flex-col gap-2.5">
             <a
               href="tel:+918010584844"
@@ -475,7 +482,7 @@ export function SiteHeader() {
   }, [activeMenu]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/90 bg-surface/95 pt-[env(safe-area-inset-top,0px)] shadow-sm backdrop-blur-md supports-[backdrop-filter]:bg-surface/80 dark:border-slate-800 dark:bg-slate-950/95 dark:supports-[backdrop-filter]:bg-slate-950/80">
+    <header className="glass-panel sticky top-0 z-50 border-b border-slate-200/90 pt-[env(safe-area-inset-top,0px)] shadow-sm dark:border-slate-800">
       {/* <div className="bg-utility-bar text-slate-100">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-2 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center gap-2">
@@ -553,7 +560,7 @@ export function SiteHeader() {
         >
           <LogoMark />
           <span className="min-w-0">
-            <span className="block truncate text-sm font-bold uppercase tracking-wide text-brand-ink dark:text-slate-100">
+            <span className="block truncate text-sm font-bold uppercase tracking-wide text-brand-ink dark:text-foreground">
               University Directory
             </span>
             {/* <span className="block truncate text-[10px] font-medium leading-snug text-slate-500 dark:text-slate-400">
@@ -561,7 +568,9 @@ export function SiteHeader() {
             </span> */}
           </span>
         </Link>
-        <button
+        <div className="flex shrink-0 items-center gap-2">
+          <ThemeToggle />
+          <button
           type="button"
           className={`${mobileHamburgerButtonClassName} ${
             mobileMenuOpen
@@ -579,6 +588,7 @@ export function SiteHeader() {
             {mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
           </span>
         </button>
+        </div>
       </div>
 
       {mobileMenuOpen ? <MobileNavDrawer onClose={closeMobileMenu} /> : null}
@@ -591,7 +601,7 @@ export function SiteHeader() {
           >
             <LogoMark />
             <span className="min-w-0">
-              <span className="block text-base font-bold uppercase tracking-wide text-brand-ink sm:text-lg dark:text-slate-100">
+              <span className="block text-base font-bold uppercase tracking-wide text-brand-ink sm:text-lg dark:text-foreground">
                 University Directory
               </span>
               {/* <span className="block text-[11px] font-medium leading-snug text-slate-500 sm:text-xs dark:text-slate-400">
@@ -662,6 +672,7 @@ export function SiteHeader() {
               >
                 Universities
               </Link>
+              <ThemeToggle />
             </nav>
           </div>
         </div>

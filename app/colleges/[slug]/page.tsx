@@ -48,7 +48,7 @@ type FeeBlockProps = {
 function FeeBlock(props: FeeBlockProps) {
   const { title, children } = props;
   return (
-    <div className="rounded-2xl border border-slate-200/90 bg-surface/90 p-4 shadow-sm ring-1 ring-slate-900/5 dark:border-slate-800 dark:bg-slate-900/80 dark:ring-white/5 sm:p-5">
+    <div className="glass-card rounded-2xl border border-slate-200/90 p-4 shadow-sm ring-1 ring-slate-900/5 dark:border-slate-800 dark:ring-white/5 sm:p-5">
       <h3 className="text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
         {title}
       </h3>
@@ -121,7 +121,7 @@ export default async function CollegeDetailPage(props: CollegeDetailPageProps) {
       {college.webometricsRanking !== undefined ? (
         <section
           aria-label="Webometrics ranking snapshot"
-          className="rounded-2xl border border-slate-200/90 bg-surface/90 p-4 shadow-sm ring-1 ring-slate-900/5 dark:border-slate-800 dark:bg-slate-900/80 dark:ring-white/5 sm:p-5"
+          className="glass-card rounded-2xl border border-slate-200/90 p-4 shadow-sm ring-1 ring-slate-900/5 dark:border-slate-800 dark:ring-white/5 sm:p-5"
         >
           <h2 className="text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
             Webometrics (rank — lower is better)

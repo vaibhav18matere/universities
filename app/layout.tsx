@@ -2,6 +2,9 @@ import type { Metadata, Viewport } from "next";
 import { Geist_Mono, Inter } from "next/font/google";
 import { SiteFooter } from "@/app/components/SiteFooter";
 import { SiteHeader } from "@/app/components/SiteHeader";
+import { ThemeProvider } from "@/app/components/ThemeProvider";
+import { UniverseBackground } from "@/app/components/UniverseBackground";
+import { THEME_STORAGE_KEY } from "@/lib/theme-storage";
 import "./globals.css";
 
 const inter = Inter({
@@ -13,6 +16,8 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const themeInitScript = `(function(){try{var s=localStorage.getItem("${THEME_STORAGE_KEY}");var t=s==="dark"||s==="light"?s:(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.classList.toggle("dark",t==="dark")}catch(e){}})();`;
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -38,19 +43,20 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${inter.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
-      <body className="flex min-h-dvh min-w-0 flex-col overflow-x-clip font-sans text-foreground">
-        <div
-          className="pointer-events-none fixed inset-0 -z-10 overflow-hidden"
-          aria-hidden
-        >
-          <div className="absolute inset-0 bg-[linear-gradient(180deg,#ffffff_0%,#f3f4f6_55%,#eef2f7_100%)] dark:bg-[linear-gradient(180deg,#0b1220_0%,#020617_100%)]" />
-        </div>
-        <SiteHeader />
-        <main className="flex min-w-0 w-full flex-1 flex-col pb-[max(1.5rem,env(safe-area-inset-bottom,0px))]">
-          {children}
-        </main>
-        <SiteFooter />
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
+      <body className="theme-transition flex min-h-dvh min-w-0 flex-col overflow-x-clip font-sans text-foreground">
+        <ThemeProvider>
+          <UniverseBackground />
+          <SiteHeader />
+          <main className="flex min-w-0 w-full flex-1 flex-col pb-[max(1.5rem,env(safe-area-inset-bottom,0px))]">
+            {children}
+          </main>
+          <SiteFooter />
+        </ThemeProvider>
       </body>
     </html>
   );
