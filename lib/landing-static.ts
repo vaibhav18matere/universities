@@ -15,7 +15,6 @@ export const megaMenuCountries: ReadonlyArray<MegaMenuCountryItem> = [
 
 export const studyAbroadMenuItems: ReadonlyArray<StudyAbroadMenuItem> = [
   { id: "mbbs", label: "MBBS abroad", href: "/#directory" },
-  { id: "compare", label: "Compare universities", href: "/#directory" },
   { id: "fees", label: "Fees & hostel", href: "/#directory" },
 ];
 

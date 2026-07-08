@@ -34,7 +34,7 @@ export default function UniversitiesHubPage() {
             <li key={country.id}>
               <Link
                 href={buildUniversitiesCountryPath(country.id)}
-                className="flex flex-col items-center gap-3 rounded-2xl border border-slate-200 bg-surface p-5 text-center shadow-sm transition hover:border-accent hover:shadow-md dark:border-slate-700 dark:bg-slate-900 dark:hover:border-accent"
+                className="glass-card flex flex-col items-center gap-3 rounded-2xl border border-slate-200 p-5 text-center shadow-sm transition hover:border-accent hover:shadow-md dark:border-slate-700 dark:hover:border-accent"
               >
                 <span
                   className="flex h-16 w-16 items-center justify-center rounded-full border border-slate-200 bg-slate-50 text-3xl dark:border-slate-600 dark:bg-slate-800"
